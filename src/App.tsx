@@ -12,7 +12,7 @@ function App() {
           </div>
           <nav
             className={
-              "flex items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white mx-auto"
+              "mx-auto flex items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white"
             }
           >
             <a
@@ -38,7 +38,7 @@ function App() {
 
         <div className={"flex w-full items-center justify-between"}>
           <div className={"w-[60%]"}>
-            <h1 className={"ps-26 text-6xl font-bold text-primary font-segoe"}>
+            <h1 className={"text-primary font-segoe ps-26 text-6xl font-bold"}>
               Welcome to Phoenix
             </h1>
             <p className={"my-10 ps-26 text-3xl text-white"}>
@@ -49,9 +49,9 @@ function App() {
 
             <div className={"flex max-h-[20vh] items-center justify-between"}>
               <div className="flex flex-col space-y-6">
-                <div className="h-2 w-20 rounded-r-full bg-gradient-to-r from-primary to-red-600"></div>
-                <div className="h-2 w-20 rounded-r-full bg-gradient-to-r from-primary to-red-600"></div>
-                <div className="h-2 w-20 rounded-r-full bg-gradient-to-r from-primary to-red-600"></div>
+                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
+                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
+                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
               </div>
               <img
                 src={"/Logo-Phoenix.svg"}
@@ -78,7 +78,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="relative h-[35vh] w-full bg-primary">
+      <div className="relative h-[35vh] w-full">
         <img
           src="/05-Market-BG.jpg"
           alt="Background"
@@ -95,7 +95,7 @@ function App() {
       </div>
       <div className={"bg-dark w-full"}>
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-5xl font-bold text-primary"}>
+          <h1 className={"text-primary text-5xl font-bold"}>
             Our Journey & Global Reach
           </h1>
         </div>
@@ -119,7 +119,7 @@ function App() {
         </div>
 
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-5xl font-bold text-primary"}>
+          <h1 className={"text-primary text-5xl font-bold"}>
             Why Choose Arizona Food?
           </h1>
         </div>
@@ -128,7 +128,7 @@ function App() {
             <div className={"h-full border-r-2 border-r-red-800 py-4 pe-5"}>
               <img src={"/07-icon.svg"} className={"w-20"} />
             </div>
-            <div className={"text-start ps-3"}>
+            <div className={"ps-3 text-start"}>
               <h2 className={"text-3xl font-bold text-white"}>
                 Global Quality Standards:
               </h2>
@@ -144,7 +144,7 @@ function App() {
             <div className={"h-full border-r-2 border-r-red-800 py-4 pe-5"}>
               <img src={"/08-icon.svg"} className={"w-13"} />
             </div>
-            <div className={"text-start ps-3"}>
+            <div className={"ps-3 text-start"}>
               <h2 className={"text-3xl font-bold text-white"}>
                 Diverse Product Range:
               </h2>
@@ -159,7 +159,7 @@ function App() {
             <div className={"h-full border-r-2 border-r-red-800 py-4 pe-5"}>
               <img src={"/09-icon.svg"} className={"w-15"} />
             </div>
-            <div className={"text-start ps-3"}>
+            <div className={"ps-3 text-start"}>
               <h2 className={"text-3xl font-bold text-white"}>
                 Reliable Partnership:
               </h2>
@@ -175,7 +175,7 @@ function App() {
             <div className={"h-full border-r-2 border-r-red-800 py-4 pe-5"}>
               <img src={"/10-icon.svg"} className={"w-13"} />
             </div>
-            <div className={"text-start ps-3"}>
+            <div className={"ps-3 text-start"}>
               <h2 className={"text-3xl font-bold text-white"}>
                 Commitment to Innovation:
               </h2>
@@ -192,7 +192,7 @@ function App() {
         </div>
 
         <div className={"px-26 pb-10"}>
-          <h1 className={"mb-10 text-start text-3xl font-bold text-primary"}>
+          <h1 className={"text-primary mb-10 text-start text-3xl font-bold"}>
             Phoenix General Trading Inc
           </h1>
           <div className={"flex w-full items-center justify-between"}>
