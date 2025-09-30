@@ -8,12 +8,13 @@ function App() {
                 <div className={"flex items-center justify-center py-10"}>
                     <nav
                         className={"flex items-center gap-16 text-2xl font-bold text-white border-b-2 border-white pb-5"}>
-                        <a href={"/"} className={window.location.pathname == "/" ? "!text-red-700" : ""}>Home</a>
+                        <a href={"/"}
+                           className={`${window.location.pathname == "/" ? "!text-red-700" : ""} hover:text-red-400`}>Home</a>
                         <a href={"/our-products"}
-                           className={window.location.pathname == "/our-products" ? "!text-red-700" : ""}>Our
+                           className={`${window.location.pathname == "/our-products" ? "!text-red-700" : ""} hover:text-red-400`}>Our
                             Products</a>
                         <a href={"/contact-us"}
-                           className={window.location.pathname == "/contact-us" ? "!text-red-700" : ""}>Contact
+                           className={`${window.location.pathname == "/contact-us" ? "!text-red-700" : ""} hover:text-red-400`}>Contact
                             Us</a>
                     </nav>
                 </div>
