@@ -5,10 +5,14 @@ function App() {
     <>
       <div className={"bg-dark relative h-screen w-full"}>
         {/* Navbar */}
-        <div className={"flex items-center justify-center py-10"}>
+        <div className={"flex items-center px-26 pt-6"}>
+          {/*  Site Logo  */}
+          <div className={""}>
+            <img src={"/Logo-Phoenix.svg"} width={150} alt={"Site Logo"} />
+          </div>
           <nav
             className={
-              "flex items-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white"
+              "flex items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white mx-auto"
             }
           >
             <a
@@ -30,11 +34,6 @@ function App() {
               Contact Us
             </a>
           </nav>
-        </div>
-
-        {/*  Site Logo  */}
-        <div className={"absolute start-[8%] top-2"}>
-          <img src={"/Logo-Phoenix.svg"} width={150} alt={"Site Logo"} />
         </div>
 
         <div className={"flex w-full items-center justify-between"}>
