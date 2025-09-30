@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+
+/* Register Segoe UI Variable font from the public folder */
+@font-face {
+    font-family: "Segoe UI Variable";
+    src: url("/project-assets/SegUIVar.ttf") format("truetype");
+    font-weight: 100 900; /* variable weight range */
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme{
+    --color-dark: black;
+    --color-primary: #BE2227;
+    /* Expose the font to Tailwind utilities */
+    --font-segoe: "Segoe UI Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* Optionally make it the default for font-sans */
+    --font-sans: var(--font-segoe);
+}
+
+
+* {
+    @apply leading-13 font-segoe
+}
