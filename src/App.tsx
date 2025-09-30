@@ -1,4 +1,4 @@
-import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
+import {FacebookIcon, Instagram, Mail, Phone} from "lucide-react";
 
 function App() {
   return (
@@ -38,11 +38,11 @@ function App() {
 
         <div className={"flex w-full items-center justify-between"}>
           <div className={"w-[60%]"}>
-            <h1 className={"text-primary font-segoe ps-26 text-6xl font-bold"}>
+            <h1 className={"text-primary !font-impact ps-26 text-6xl"}>
               Welcome to Phoenix
             </h1>
             <p className={"my-10 ps-26 text-3xl text-white"}>
-              your trusted partner for high-quality Arizona food across the
+              Your trusted partner for high-quality Arizona food across the
               globe. We're passionate about bringing the finest ingredients and
               delicious flavors from our tables to yours.
             </p>
@@ -78,24 +78,17 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="relative h-[35vh] w-full">
-        <img
-          src="/05-Market-BG.jpg"
-          alt="Background"
-          className="absolute inset-0 h-full w-full object-fill mix-blend-multiply"
-        />
-        <div className="relative z-10 flex items-center justify-center p-18">
-          <p className="text-center text-3xl text-white">
-            Founded in 2015, <strong>Arizona Food</strong> has quickly become a
-            trusted name in food manufacturing and distribution. Our success is
-            built on a commitment to quality, reliability, and a deep
-            appreciation for global culinary traditions.
-          </p>
-        </div>
+      <div className="flex h-[35vh] w-full items-center justify-center bg-[url('/05-Market-BG.jpg')] p-24">
+        <p className="text-center text-3xl text-white">
+          Founded in 2015, <strong>Arizona Food</strong> has quickly become a
+          trusted name in food manufacturing and distribution. Our success is
+          built on a commitment to quality, reliability, and a deep appreciation
+          for global culinary traditions.
+        </p>
       </div>
       <div className={"bg-dark w-full"}>
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-primary text-5xl font-bold"}>
+          <h1 className={"text-primary text-5xl !font-impact"}>
             Our Journey & Global Reach
           </h1>
         </div>
@@ -119,7 +112,7 @@ function App() {
         </div>
 
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-primary text-5xl font-bold"}>
+          <h1 className={"text-primary text-5xl !font-impact"}>
             Why Choose Arizona Food?
           </h1>
         </div>
@@ -192,7 +185,7 @@ function App() {
         </div>
 
         <div className={"px-26 pb-10"}>
-          <h1 className={"text-primary mb-10 text-start text-3xl font-bold"}>
+          <h1 className={"text-primary mb-10 text-start text-3xl !font-impact"}>
             Phoenix General Trading Inc
           </h1>
           <div className={"flex w-full items-center justify-between"}>
