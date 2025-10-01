@@ -32,5 +32,6 @@
 
 
 * {
-    @apply leading-13 font-segoe
+    @apply leading-13 font-segoe;
 }
+

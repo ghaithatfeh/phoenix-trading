@@ -1,40 +1,12 @@
-import {FacebookIcon, Instagram, Mail, Phone} from "lucide-react";
+import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
+import Navbar from "./components/Navbar.tsx";
 
-function App() {
+function Home() {
   return (
     <>
-      <div className={"bg-dark relative h-screen w-full"}>
+      <div className={"bg-dark h-screen w-full"}>
         {/* Navbar */}
-        <div className={"flex items-center px-26 pt-6"}>
-          {/*  Site Logo  */}
-          <div className={""}>
-            <img src={"/Logo-Phoenix.svg"} width={150} alt={"Site Logo"} />
-          </div>
-          <nav
-            className={
-              "mx-auto flex items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white"
-            }
-          >
-            <a
-              href={"/"}
-              className={`${window.location.pathname == "/" ? "!text-primary" : ""} hover:text-red-400`}
-            >
-              Home
-            </a>
-            <a
-              href={"/our-products"}
-              className={`${window.location.pathname == "/our-products" ? "!text-primary" : ""} hover:text-red-400`}
-            >
-              Our Products
-            </a>
-            <a
-              href={"/contact-us"}
-              className={`${window.location.pathname == "/contact-us" ? "!text-primary" : ""} hover:text-red-400`}
-            >
-              Contact Us
-            </a>
-          </nav>
-        </div>
+        <Navbar />
 
         <div className={"flex w-full items-center justify-between"}>
           <div className={"w-[60%]"}>
@@ -88,7 +60,7 @@ function App() {
       </div>
       <div className={"bg-dark w-full"}>
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-primary text-5xl !font-impact"}>
+          <h1 className={"text-primary !font-impact text-5xl"}>
             Our Journey & Global Reach
           </h1>
         </div>
@@ -112,7 +84,7 @@ function App() {
         </div>
 
         <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-primary text-5xl !font-impact"}>
+          <h1 className={"text-primary !font-impact text-5xl"}>
             Why Choose Arizona Food?
           </h1>
         </div>
@@ -185,7 +157,7 @@ function App() {
         </div>
 
         <div className={"px-26 pb-10"}>
-          <h1 className={"text-primary mb-10 text-start text-3xl !font-impact"}>
+          <h1 className={"text-primary !font-impact mb-10 text-start text-3xl"}>
             Phoenix General Trading Inc
           </h1>
           <div className={"flex w-full items-center justify-between"}>
@@ -234,4 +206,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
