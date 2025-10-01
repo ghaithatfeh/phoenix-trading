@@ -8,13 +8,13 @@ function Home() {
         {/* Navbar */}
         <Navbar />
 
-        <div className={"flex w-full items-center justify-between"}>
+        <div className={"flex w-full items-end justify-between"}>
           <div className={"w-[60%]"}>
-            <h1 className={"text-primary !font-impact ps-26 text-6xl"}>
+            <h1 className={"text-primary !font-impact ps-26 text-5xl"}>
               Welcome to Phoenix
             </h1>
-            <p className={"my-10 ps-26 text-3xl text-white"}>
-              Your trusted partner for high-quality Arizona food across the
+            <p className={"my-10 ps-26 pe-16 text-3xl text-white"}>
+              Your trusted partner for high-quality <strong>Arizona Food</strong> across the
               globe. We're passionate about bringing the finest ingredients and
               delicious flavors from our tables to yours.
             </p>
@@ -59,8 +59,8 @@ function Home() {
         </p>
       </div>
       <div className={"bg-dark w-full"}>
-        <div className={"flex w-full items-center justify-center py-10"}>
-          <h1 className={"text-primary !font-impact text-5xl"}>
+        <div className={"flex w-full items-center justify-center py-20"}>
+          <h1 className={"text-primary text-5xl !font-impact"}>
             Our Journey & Global Reach
           </h1>
         </div>
@@ -68,8 +68,8 @@ function Home() {
           <div className={"w-[38%]"}>
             <img src={"/06-Map.svg"} />
           </div>
-          <div className={"w-[62%]"}>
-            <p className={"text-center text-4xl text-white"}>
+          <div className={"w-[62%] ms-18"}>
+            <p className={"text-center text-3xl text-white"}>
               From our beginnings in the Middle East in 2015, we expanded to
               Turkey in 2016, reached every corner of Canada by 2023, and
               proudly established our presence in Syria in 2024. Our journey
@@ -80,7 +80,7 @@ function Home() {
         </div>
 
         <div className={"my-10 flex items-center justify-center"}>
-          <div className={"h-2 w-[60%] rounded-md bg-red-600"}></div>
+          <div className={"h-2 w-[60%] rounded-md bg-primary"}></div>
         </div>
 
         <div className={"flex w-full items-center justify-center py-10"}>
@@ -97,7 +97,7 @@ function Home() {
               <h2 className={"text-3xl font-bold text-white"}>
                 Global Quality Standards:
               </h2>
-              <p className={"text-2xl text-white"}>
+              <p className={"text-xl text-white"}>
                 We adhere to the strictest international standards in
                 manufacturing and distribution, ensuring every product meets
                 your expectations for safety and excellence.
@@ -113,7 +113,7 @@ function Home() {
               <h2 className={"text-3xl font-bold text-white"}>
                 Diverse Product Range:
               </h2>
-              <p className={"text-2xl text-white"}>
+              <p className={"text-xl text-white"}>
                 From staple ingredients to specialty items, our wide selection
                 caters to varied tastes and culinary needs
               </p>
@@ -128,7 +128,7 @@ function Home() {
               <h2 className={"text-3xl font-bold text-white"}>
                 Reliable Partnership:
               </h2>
-              <p className={"text-2xl text-white"}>
+              <p className={"text-xl text-white"}>
                 We pride ourselves on building strong, lasting relationships
                 with our partners and customers, founded on transparency and
                 efficiency.
@@ -153,7 +153,7 @@ function Home() {
         </div>
 
         <div className={"my-10 flex items-center justify-center"}>
-          <div className={"h-2 w-[60%] rounded-md bg-red-600"}></div>
+          <div className={"h-2 w-[60%] rounded-md bg-primary"}></div>
         </div>
 
         <div className={"px-26 pb-10"}>
