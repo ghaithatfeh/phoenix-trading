@@ -60,9 +60,9 @@ const Products = () => {
       <h1 className={"text-primary !font-impact my-10 text-center text-4xl"}>
         Our Products
       </h1>
-      <div className={"grid grid-cols-2 items-center justify-center gap-5 px-20 md:grid-cols-4"}>
+      <div className={"grid grid-cols-2 items-center justify-center gap-10 px-32 md:grid-cols-4"}>
         {products.map((product , index) => (
-          <div className={"border-primary border-2"} key={index}>
+          <div className={"border-primary border-2 h-[65vh]"} key={index}>
             <div className={"h-[50%] w-full"}>
               <img
                 src={product.image}
