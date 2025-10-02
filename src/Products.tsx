@@ -3,7 +3,6 @@ import products from "./data/products.json";
 import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 
 const Products = () => {
-  console.log(products);
   return (
     <>
       {/* Hero wrapper made relative to position decorative logo */}
