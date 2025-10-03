@@ -59,31 +59,35 @@ const Products = () => {
       <h1 className={"text-primary !font-impact my-10 text-center text-4xl"}>
         Our Products
       </h1>
-      <div className={"grid grid-cols-2 items-center justify-center gap-10 px-32 md:grid-cols-4"}>
-        {products.map((product , index) => (
-          <div className={"border-primary border-2 h-[65vh]"} key={index}>
+      <div
+        className={
+          "grid grid-cols-2 items-stretch justify-center gap-10 px-32 md:grid-cols-4"
+        }
+      >
+        {products.map((product, index) => (
+          <div className={"border-primary h-fit min-h-full border-2"} key={index}>
             <div className={"h-[50%] w-full"}>
               <img
                 src={product.image}
                 alt={product.name}
                 className={"h-full w-full object-cover"}
               />
-              <h1
-                className={
-                  "!font-impact bg-primary p-2 text-center text-xl text-white"
-                }
-              >
-                {product.name}
-              </h1>
-              <p className={"text-md p-5 text-center !leading-5"}>
-                {product.description}
-              </p>
             </div>
+            <h1
+              className={
+                "!font-impact bg-primary p-2 text-center text-xl text-white"
+              }
+            >
+              {product.name}
+            </h1>
+            <p className={"text-md p-5 text-center !leading-5"}>
+              {product.description}
+            </p>
           </div>
         ))}
       </div>
 
-      <div className={"flex w-full items-center justify-center my-10"}>
+      <div className={"my-10 flex w-full items-center justify-center"}>
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
 
@@ -92,40 +96,60 @@ const Products = () => {
           Phoenix General Trading Inc
         </h1>
         <div className={"flex w-full items-center justify-between"}>
-          <div
-            className={"flex flex-col items-start justify-start space-y-6"}
-          >
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+          <div className={"flex flex-col items-start justify-start space-y-6"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <img src={"/canada.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +1 (437) 231-1444
             </div>
 
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <img src={"/turkey.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +90 539 693 11 33
             </div>
 
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <img src={"/syria.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +963 937 777 960
             </div>
           </div>
-          <div
-            className={"flex flex-col items-start justify-start space-y-6"}
-          >
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+          <div className={"flex flex-col items-start justify-start space-y-6"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <Mail className={"text-primary"} />
               Info@phoenixtradings.ca
             </div>
 
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <Instagram className={"text-primary"} />
               ARIZONA1FOODS
             </div>
-            <div className={"flex items-center gap-2 text-2xl text-black font-bold"}>
+            <div
+              className={
+                "flex items-center gap-2 text-2xl font-bold text-black"
+              }
+            >
               <FacebookIcon className={"text-primary"} />
               Arizonafoods
             </div>
