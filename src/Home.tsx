@@ -14,9 +14,10 @@ function Home() {
               Welcome to Phoenix
             </h1>
             <p className={"my-10 ps-26 pe-16 text-3xl text-white"}>
-              Your trusted partner for high-quality <strong>Arizona Food</strong> across the
-              globe. We're passionate about bringing the finest ingredients and
-              delicious flavors from our tables to yours.
+              Your trusted partner for high-quality{" "}
+              <strong>Arizona Food</strong> across the globe. We're passionate
+              about bringing the finest ingredients and delicious flavors from
+              our tables to yours.
             </p>
 
             <div className={"flex max-h-[20vh] items-center justify-between"}>
@@ -60,7 +61,7 @@ function Home() {
       </div>
       <div className={"bg-dark w-full"}>
         <div className={"flex w-full items-center justify-center py-20"}>
-          <h1 className={"text-primary text-5xl !font-impact"}>
+          <h1 className={"text-primary !font-impact text-5xl"}>
             Our Journey & Global Reach
           </h1>
         </div>
@@ -68,7 +69,7 @@ function Home() {
           <div className={"w-[38%]"}>
             <img src={"/06-Map.svg"} />
           </div>
-          <div className={"w-[62%] ms-18"}>
+          <div className={"ms-18 w-[62%]"}>
             <p className={"text-center text-3xl text-white"}>
               From our beginnings in the Middle East in 2015, we expanded to
               Turkey in 2016, reached every corner of Canada by 2023, and
@@ -80,7 +81,7 @@ function Home() {
         </div>
 
         <div className={"my-10 flex items-center justify-center"}>
-          <div className={"h-2 w-[60%] rounded-md bg-primary"}></div>
+          <div className={"bg-primary h-2 w-[60%] rounded-md"}></div>
         </div>
 
         <div className={"flex w-full items-center justify-center py-10"}>
@@ -153,7 +154,7 @@ function Home() {
         </div>
 
         <div className={"my-10 flex items-center justify-center"}>
-          <div className={"h-2 w-[60%] rounded-md bg-primary"}></div>
+          <div className={"bg-primary h-2 w-[60%] rounded-md"}></div>
         </div>
 
         <div className={"px-26 pb-10"}>
@@ -164,40 +165,70 @@ function Home() {
             <div
               className={"flex flex-col items-start justify-start space-y-6"}
             >
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              <a
+                href={"tel:+14372311444"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <img src={"/canada.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 +1 (437) 231-1444
-              </div>
+              </a>
 
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              <a
+                href={"tel:+905396931133"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <img src={"/turkey.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 +90 539 693 11 33
-              </div>
+              </a>
 
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              <a
+                href={"tel:+963937777960"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <img src={"/syria.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 +963 937 777 960
-              </div>
+              </a>
             </div>
             <div
               className={"flex flex-col items-start justify-start space-y-6"}
             >
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              <a
+                href={"mailto:Info@phoenixtradings.ca"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <Mail className={"text-primary"} />
                 Info@phoenixtradings.ca
-              </div>
+              </a>
 
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              <a
+                href={"https://www.instagram.com/ARIZONA1FOODS"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <Instagram className={"text-primary"} />
                 ARIZONA1FOODS
-              </div>
-              <div className={"flex items-center gap-2 text-2xl text-white"}>
+              </a>
+              <a
+                href={"https://www.facebook.com/arizonafoods"}
+                className={
+                  "flex items-center gap-2 text-2xl text-white hover:underline"
+                }
+              >
                 <FacebookIcon className={"text-primary"} />
                 Arizonafoods
-              </div>
+              </a>
             </div>
           </div>
         </div>

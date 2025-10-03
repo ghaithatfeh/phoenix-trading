@@ -65,7 +65,10 @@ const Products = () => {
         }
       >
         {products.map((product, index) => (
-          <div className={"border-primary h-fit min-h-full border-2"} key={index}>
+          <div
+            className={"border-primary h-fit min-h-full border-2"}
+            key={index}
+          >
             <div className={"h-[50%] w-full"}>
               <img
                 src={product.image}
@@ -97,62 +100,68 @@ const Products = () => {
         </h1>
         <div className={"flex w-full items-center justify-between"}>
           <div className={"flex flex-col items-start justify-start space-y-6"}>
-            <div
+            <a
+              href={"tel:+14372311444"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <img src={"/canada.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +1 (437) 231-1444
-            </div>
+            </a>
 
-            <div
+            <a
+              href={"tel:+905396931133"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <img src={"/turkey.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +90 539 693 11 33
-            </div>
+            </a>
 
-            <div
+            <a
+              href={"tel:+96393777960"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <img src={"/syria.png"} className={"w-8"} />
               <Phone className={"fill-primary text-primary"} />
               +963 937 777 960
-            </div>
+            </a>
           </div>
           <div className={"flex flex-col items-start justify-start space-y-6"}>
-            <div
+            <a
+              href={"mailto:Info@phoenixtradings.ca"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <Mail className={"text-primary"} />
               Info@phoenixtradings.ca
-            </div>
+            </a>
 
-            <div
+            <a
+              href={"https://www.instagram.com/ARIZONA1FOODS"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <Instagram className={"text-primary"} />
               ARIZONA1FOODS
-            </div>
-            <div
+            </a>
+            <a
+              href={"https://www.facebook.com/Arizonafoods"}
               className={
-                "flex items-center gap-2 text-2xl font-bold text-black"
+                "flex items-center gap-2 text-2xl font-bold text-black hover:underline"
               }
             >
               <FacebookIcon className={"text-primary"} />
               Arizonafoods
-            </div>
+            </a>
           </div>
         </div>
       </div>
