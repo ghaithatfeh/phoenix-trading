@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const pathname = window.location.pathname;
@@ -26,24 +27,24 @@ const Navbar = () => {
             "mx-auto hidden items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white md:flex"
           }
         >
-          <a
-            href={"/"}
+          <Link
+            to={"/"}
             className={`${window.location.pathname == "/" ? "!text-primary" : ""} hover:text-red-400`}
           >
             Home
-          </a>
-          <a
-            href={"/our-products"}
+          </Link>
+          <Link
+            to={"/our-products"}
             className={`${window.location.pathname == "/our-products" ? "!text-primary" : ""} hover:text-red-400`}
           >
             Our Products
-          </a>
-          <a
-            href={"/contact-us"}
+          </Link>
+          <Link
+            to={"/contact-us"}
             className={`${window.location.pathname == "/contact-us" ? "!text-primary" : ""} hover:text-red-400`}
           >
             Contact Us
-          </a>
+          </Link>
         </nav>
 
         {/* Hamburger Menu Button - Mobile Only */}
@@ -96,33 +97,33 @@ const Navbar = () => {
 
         {/* Mobile Navigation Links */}
         <nav className="flex flex-col gap-6 px-6">
-          <a
-            href={"/"}
+          <Link
+            to={"/"}
             onClick={closeMobileMenu}
             className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
               window.location.pathname == "/" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             Home
-          </a>
-          <a
-            href={"/our-products"}
+          </Link>
+          <Link
+            to={"/our-products"}
             onClick={closeMobileMenu}
             className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
               window.location.pathname == "/our-products" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             Our Products
-          </a>
-          <a
-            href={"/contact-us"}
+          </Link>
+          <Link
+            to={"/contact-us"}
             onClick={closeMobileMenu}
             className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
               window.location.pathname == "/contact-us" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             Contact Us
-          </a>
+          </Link>
         </nav>
       </div>
     </>
