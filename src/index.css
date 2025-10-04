@@ -28,6 +28,8 @@
     --font-impact: "ImpactCustom", sans-serif;
     /* Optionally make it the default for font-sans */
     --font-sans: var(--font-segoe);
+    /* Custom breakpoint */
+    --breakpoint-md: 1024px;
 }
 
 
