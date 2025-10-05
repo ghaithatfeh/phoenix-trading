@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar.tsx";
 import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div className={"bg-dark w-full overflow-y-scroll md:h-screen"}>
       <div className={"bg-dark h-full"}>
@@ -12,16 +14,14 @@ const Contact = () => {
             "!font-impact text-primary my-12 w-full px-5 text-center text-3xl md:px-0 md:text-6xl"
           }
         >
-          Inquiries, Partnerships & More: Let’s Connect
+          {t("contactUs.title")}
         </h1>
         <p
           className={
             "px-5 text-center text-2xl text-white md:px-40 md:text-4xl"
           }
         >
-          We’d love to hear from you! Whether you have questions about ARIZONA
-          products, want to share feedback, or explore partnership opportunities
-          our team is here to help. Get in touch with us today!
+          {t("contactUs.description")}
         </p>
       </div>
       <div
@@ -55,7 +55,7 @@ const Contact = () => {
                 }
               >
                 <img src={"/syria.png"} className={"w-8"} />
-                Syria :
+                {t("contactUs.syria")} :
               </div>
               <a
                 href={"tel:+96393777960"}
@@ -75,7 +75,7 @@ const Contact = () => {
                 }
               >
                 <img src={"/canada.png"} className={"w-8"} />
-                Canada :
+                {t("contactUs.canada")} :
               </div>
               <a
                 href={"tel:+14372311444"}
@@ -91,7 +91,7 @@ const Contact = () => {
             <div className={"flex flex-col items-start"}>
               <div className={"flex items-center gap-2 text-2xl text-white"}>
                 <img src={"/turkey.png"} className={"w-8"} />
-                Turkey :
+                {t("contactUs.turkey")} :
               </div>
               <a
                 href={"tel:+905396931133"}

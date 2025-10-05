@@ -18,6 +18,22 @@
     "reliablePartnershipDescription": "We pride ourselves on building strong, lasting relationships with our partners and customers, founded on transparency and efficiency.",
     "commitmentToInnovation": "Commitment to Innovation",
     "commitmentToInnovationDescription": "We constantly explore new tastes and production methods to bring you the best and most innovative food solutions.",
-    "companyName": "Phoenix General Trading Inc."
+    "companyName": "Phoenix General Trading Inc.",
+    "home": "Home",
+    "ourProductsNav": "Our Products",
+    "contactUsNav": "Contact Us",
+    "ourProducts": {
+      "title": "Welcome to the Flavors of Phoenix!",
+      "description": "Explore our curated selection of premium food products, where quality and taste come together in every bite. At Phonex, we believe that great food starts with the finest ingredients. Each item in our collection is carefully chosen to bring you an unparalleled culinary experience, whether you’re a professional chef or a home cook.",
+      "discover": "Dive in and discover the rich variety, exceptional freshness, and exquisite flavors that define the Phoenix brand. We're dedicated to bringing the best to your table, every time.",
+      "products": "Our Products"
+    },
+    "contactUs": {
+      "title": "Inquiries, Partnerships & More: Let’s Connect",
+      "description": "We’d love to hear from you! Whether you have questions about ARIZONA products, want to share feedback, or explore partnership opportunities our team is here to help. Get in touch with us today!",
+      "syria": "Syria",
+      "canada": "Canada",
+      "turkey": "Turkey"
+    }
   }
 }

@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-
+const LOCALE_STORAGE_KEY = "locale";
 const Navbar = () => {
   const {
+    t,
     i18n: { changeLanguage, language },
   } = useTranslation();
   const pathname = window.location.pathname;
@@ -15,6 +16,16 @@ const Navbar = () => {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  useEffect(() => {
+    let locale = window.localStorage.getItem(LOCALE_STORAGE_KEY);
+    if (!locale) {
+      locale = "en";
+    }
+
+    changeLanguage(locale);
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+  }, []);
 
   return (
     <>
@@ -34,28 +45,30 @@ const Navbar = () => {
             href={"/"}
             className={`${window.location.pathname == "/" ? "!text-primary" : ""} hover:text-red-400`}
           >
-            Home
+            {t("home")}
           </a>
           <a
             href={"/our-products"}
             className={`${window.location.pathname == "/our-products" ? "!text-primary" : ""} hover:text-red-400`}
           >
-            Our Products
+            {t("ourProductsNav")}
           </a>
           <a
             href={"/contact-us"}
             className={`${window.location.pathname == "/contact-us" ? "!text-primary" : ""} hover:text-red-400`}
           >
-            Contact Us
+            {t("contactUsNav")}
           </a>
 
           <a
             className={`hover:text-red-400`}
             onClick={() => {
-              changeLanguage(language == "en" ? "ar" : "en");
+              let locale = language == "en" ? "ar" : "en";
+              changeLanguage(locale);
+              window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
             }}
           >
-            {language == "en" ? "AR" : "انكليزي"}
+            {language == "en" ? "Arabic" : "انكليزي"}
           </a>
         </nav>
 

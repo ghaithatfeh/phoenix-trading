@@ -1,8 +1,13 @@
+import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar.tsx";
 import products from "./data/products.json";
 import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 
 const Products = () => {
+  const {
+    t,
+    i18n: { language },
+  } = useTranslation();
   return (
     <div className="h-full w-full">
       {/* Hero wrapper made relative to position decorative logo */}
@@ -18,18 +23,14 @@ const Products = () => {
               "!font-impact text-primary text-center text-4xl md:text-5xl"
             }
           >
-            Welcome to the Flavors of Phoenix!
+            {t("ourProducts.title")}
           </h1>
           <p
             className={
               "mt-4 text-justify text-xl text-white md:text-2xl lg:text-3xl"
             }
           >
-            Explore our curated selection of premium food products, where
-            quality and taste come together in every bite. At Phonex, we believe
-            that great food starts with the finest ingredients. Each item in our
-            collection is carefully chosen to bring you an unparalleled culinary
-            experience, whether you’re a professional chef or a home cook.
+            {t("ourProducts.description")}
           </p>
         </div>
         <div className="w-full md:h-[80vh]">
@@ -47,9 +48,7 @@ const Products = () => {
       >
         <div className={"flex h-full w-full items-center justify-end"}>
           <p className={"px-10 text-center text-3xl text-white md:w-[50%]"}>
-            Dive in and discover the rich variety, exceptional freshness, and
-            exquisite flavors that define the Phoenix brand. We're dedicated to
-            bringing the best to your table, every time.
+            {t("ourProducts.discover")}
           </p>
         </div>
       </div>
@@ -57,7 +56,7 @@ const Products = () => {
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
       <h1 className={"text-primary !font-impact my-10 text-center text-4xl"}>
-        Our Products
+        {t("ourProducts.products")}
       </h1>
       <div
         className={
@@ -72,7 +71,7 @@ const Products = () => {
             <div className={"h-[50%] w-full"}>
               <img
                 src={product.image}
-                alt={product.name}
+                alt={language === "en" ? product.name_en : product.name_ar}
                 className={"h-full w-full object-cover"}
               />
             </div>
@@ -81,10 +80,12 @@ const Products = () => {
                 "!font-impact bg-primary p-2 text-center text-xl text-white"
               }
             >
-              {product.name}
+              {language === "en" ? product.name_en : product.name_ar}
             </h1>
             <p className={"text-md p-5 text-center !leading-5"}>
-              {product.description}
+              {language === "en"
+                ? product.description_en
+                : product.description_ar}
             </p>
           </div>
         ))}
@@ -100,7 +101,7 @@ const Products = () => {
             "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
           }
         >
-          Phoenix General Trading Inc
+          {t("companyName")}
         </h1>
         <div
           className={

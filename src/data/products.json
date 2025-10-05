@@ -1,77 +1,107 @@
 [
   {
-    "name": "Mexican pickled peppers",
-    "description": "A vibrant addition to any dish. Our Mexican pickled peppers are selected for their crisp texture and bold flavor. Tangy, spicy, and perfectly crunchy, they are ideal for adding an authentic kick to tacos, burgers, and salads. High quality and ready to use, they are a fantastic shortcut to creating memorable meals.",
+    "name_en": "Mexican pickled peppers",
+    "name_ar": "فلفل مخلل مكسيكي",
+    "description_en": "A vibrant addition to any dish. Our Mexican pickled peppers are selected for their crisp texture and bold flavor. Tangy, spicy, and perfectly crunchy, they are ideal for adding an authentic kick to tacos, burgers, and salads. High quality and ready to use, they are a fantastic shortcut to creating memorable meals.",
+    "description_ar": "إضافة نابضة بالحياة لأي طبق. يتم اختيار الفلفل المكسيكي المخلل لدينا لقرمشته المميزة ونكهته الجريئة. حامض، حار، وقرمشة مثالية، وهو خيار رائع لإضافة لمسة أصيلة على التاكو، البرغر، والسلطات. بجودة عالية وجاهز للاستخدام، إنه اختصار رائع لتحضير وجبات لا تُنسى.",
     "image": "/products/04Prouduct.jpg"
   },
   {
-    "name": "Houraniya pickled peppers",
-    "description": "A taste of Syrian tradition. Our Houraniya pickled peppers capture the authentic, rustic flavor of the countryside. Carefully prepared, they offer a perfect balance of tangy and salty notes with a satisfying crunch. Ideal for traditional Middle Eastern dishes, grilling platters, and sandwiches, offering a true taste of heritage. ",
+    "name_en": "Houraniya pickled peppers",
+    "name_ar": "فلفل مخلل حوراني",
+    "description_en": "A taste of Syrian tradition. Our Houraniya pickled peppers capture the authentic, rustic flavor of the countryside. Carefully prepared, they offer a perfect balance of tangy and salty notes with a satisfying crunch. Ideal for traditional Middle Eastern dishes, grilling platters, and sandwiches, offering a true taste of heritage.",
+    "description_ar": "طعم من التقاليد السورية. يلتقط فلفلنا المخلل الحوراني النكهة الأصيلة والريفية للريف السوري. مُحضّر بعناية، يقدم توازناً مثالياً بين النكهات الحامضة والمالحة مع قرمشة مرضية. مثالي للأطباق الشرقية التقليدية، أطباق المشاوي، والسندويشات، حيث يقدم طعماً حقيقياً من التراث.",
     "image": "/products/05Prouduct.jpg"
   },
   {
-    "name": "Pickled cucumber slices",
-    "description": "Crisp and ready to use. Our pickled cucumber slices offer a satisfying crunch and a tangy, refreshing flavor. Perfectly sliced for convenience, they're an essential addition to burgers, sandwiches, and salads. High-quality and always consistent, they're the secret ingredient for an extra burst of zest.",
+    "name_en": "Pickled cucumber slices",
+    "name_ar": "شرائح خيار مخلل",
+    "description_en": "Crisp and ready to use. Our pickled cucumber slices offer a satisfying crunch and a tangy, refreshing flavor. Perfectly sliced for convenience, they're an essential addition to burgers, sandwiches, and salads. High-quality and always consistent, they're the secret ingredient for an extra burst of zest.",
+    "description_ar": "مقرمشة وجاهزة للاستخدام. تقدم شرائح الخيار المخلل لدينا قرمشة مرضية ونكهة حامضة ومنعشة. مقطعة بشكل مثالي لسهولة الاستخدام، وهي إضافة أساسية للبرغر، السندويشات، والسلطات. بجودة عالية وثبات دائم، إنها المكون السري لإضافة نكهة مميزة إضافية.",
     "image": "/products/06Prouduct.jpg"
   },
   {
-    "name": "Whole pickled cucumber",
-    "description": "The classic pickle with a satisfying crunch. Our whole pickled cucumbers are known for their exceptional crispness and robust, tangy flavor. Ideal for serving alongside platters, as a side dish, or for slicing and dicing in-house. They maintain their firm texture and deliver an authentic, zesty taste that customers love.",
+    "name_en": "Whole pickled cucumber",
+    "name_ar": "خيار مخلل كامل",
+    "description_en": "The classic pickle with a satisfying crunch. Our whole pickled cucumbers are known for their exceptional crispness and robust, tangy flavor. Ideal for serving alongside platters, as a side dish, or for slicing and dicing in-house. They maintain their firm texture and deliver an authentic, zesty taste that customers love.",
+    "description_ar": "المخلل الكلاسيكي مع قرمشة مرضية. يُعرف خيارنا المخلل الكامل بقرمشته الاستثنائية ونكهته القوية والحامضة. مثالي للتقديم بجانب الأطباق، كطبق جانبي، أو للتقطيع والاستخدام حسب الحاجة. يحافظ على قوامه المتماسك ويمنح طعماً أصيلاً وحامضاً يحبه الجميع.",
     "image": "/products/07Prouduct.jpg"
   },
   {
-    "name": "Mixed Pickles",
-    "description": "A medley of flavor and crunch. Our mixed pickles offer a vibrant combination of carefully selected vegetables, all pickled to perfection. You'll find a delightful variety of textures and tastes in every jar. From tangy carrots to crisp cucumbers and zesty cauliflower, this mix is a versatile and colorful addition to any plate, perfect for mezzes and side dishes.",
+    "name_en": "Mixed Pickles",
+    "name_ar": "مخلل مشكل",
+    "description_en": "A medley of flavor and crunch. Our mixed pickles offer a vibrant combination of carefully selected vegetables, all pickled to perfection. You'll find a delightful variety of textures and tastes in every jar. From tangy carrots to crisp cucumbers and zesty cauliflower, this mix is a versatile and colorful addition to any plate, perfect for mezzes and side dishes.",
+    "description_ar": "مزيج من النكهات والقرمشة. يقدم المخلل المشكل لدينا توليفة نابضة بالحياة من الخضار المختارة بعناية، وجميعها مخللة بإتقان. ستجد مجموعة متنوعة من القوام والنكهات في كل برطمان. من الجزر الحامض إلى الخيار المقرمش والقرنبيط المنعش، هذا المزيج إضافة متعددة الاستخدامات وملونة لأي طبق، مثالية للمقبلات والأطباق الجانبية.",
     "image": "/products/08Prouduct.jpg"
   },
   {
-    "name": "Pickled turnip slices",
-    "description": "Vibrant color, sharp flavor. Our pickled turnip slices are a classic with a distinct pink hue and a satisfyingly crisp texture. Each slice delivers a bold, tangy flavor that's a perfect complement to falafel sandwiches, shawarma platters, or any Middle Eastern meal. They are an essential element for adding both visual appeal and a zesty kick to your menu. ",
+    "name_en": "Pickled turnip slices",
+    "name_ar": "شرائح لفت مخلل",
+    "description_en": "Vibrant color, sharp flavor. Our pickled turnip slices are a classic with a distinct pink hue and a satisfyingly crisp texture. Each slice delivers a bold, tangy flavor that's a perfect complement to falafel sandwiches, shawarma platters, or any Middle Eastern meal. They are an essential element for adding both visual appeal and a zesty kick to your menu.",
+    "description_ar": "لون نابض بالنكهة وطعم حاد. شرائح اللفت المخللة لدينا كلاسيكية بتميزها باللون الوردي الجذاب وقوامها المقرمش. كل شريحة تقدم نكهة جريئة وحامضة تكمل بشكل مثالي سندويشات الفلافل وأطباق الشاورما أو أي وجبة شرقية. إنها عنصر أساسي لإضافة جاذبية بصرية ولمسة حامضة لذيذة إلى قائمتك.",
     "image": "/products/09Prouduct.jpg"
   },
   {
-    "name": "Alameer Tahini",
-    "description": "Pure, smooth, and rich. Made from the finest sesame seeds, Alameer Tahini offers an exceptionally smooth texture and a deep, nutty flavor. It’s the perfect base for creamy sauces and dips, and a versatile dressing for salads, vegetables, and grilled meats. Elevate your dishes with its authentic quality",
+    "name_en": "Alameer Tahini",
+    "name_ar": "طحينة الأمير",
+    "description_en": "Pure, smooth, and rich. Made from the finest sesame seeds, Alameer Tahini offers an exceptionally smooth texture and a deep, nutty flavor. It’s the perfect base for creamy sauces and dips, and a versatile dressing for salads, vegetables, and grilled meats. Elevate your dishes with its authentic quality.",
+    "description_ar": "نقية، ناعمة، وغنية. مصنوعة من أجود حبوب السمسم، تقدم طحينة الأمير قواماً شديد النعومة ونكهة عميقة ومكسرية. إنها القاعدة المثالية للصلصات الكريمية والمقبلات، وتستخدم كصلصة متعددة الاستخدامات للسلطات، الخضار، واللحوم المشوية. ارفع مستوى أطباقك بجودتها الأصيلة.",
     "image": "/products/10Prouduct.jpg"
   },
   {
-    "name": "Arizona Tahini",
-    "description": "The secret to perfect hummus. Our Arizona Tahini is specially crafted for the perfect hummus experience. Its uniquely light color and mild, buttery flavor allow the chickpeas to shine, while its silky-smooth consistency creates a luxurious, creamy texture. This high-quality tahini is the key to making authentic, restaurant-quality hummus every time.",
+    "name_en": "Arizona Tahini",
+    "name_ar": "طحينة أريزونا",
+    "description_en": "The secret to perfect hummus. Our Arizona Tahini is specially crafted for the perfect hummus experience. Its uniquely light color and mild, buttery flavor allow the chickpeas to shine, while its silky-smooth consistency creates a luxurious, creamy texture. This high-quality tahini is the key to making authentic, restaurant-quality hummus every time.",
+    "description_ar": "السر وراء الحمص المثالي. طحينة أريزونا مصنوعة خصيصاً لتمنحك تجربة حمص متكاملة. لونها الفاتح المميز ونكهتها الخفيفة والزبدية يسمحان للحمص بأن يتألق، بينما قوامها الناعم كالحرير يخلق قواماً كريميًا فاخرًا. هذه الطحينة عالية الجودة هي المفتاح لتحضير حمص أصيل بجودة المطاعم في كل مرة.",
     "image": "/products/11Prouduct.jpg"
   },
   {
-    "name": "Tomato paste",
-    "description": "Rich, concentrated flavor. Made from sun-ripened tomatoes, our paste offers a deep red color and a thick, smooth consistency. A small amount adds a powerful, tangy flavor to sauces, soups, and stews. It's the essential ingredient for building a robust tomato base in all your dishes",
+    "name_en": "Tomato paste",
+    "name_ar": "معجون طماطم",
+    "description_en": "Rich, concentrated flavor. Made from sun-ripened tomatoes, our paste offers a deep red color and a thick, smooth consistency. A small amount adds a powerful, tangy flavor to sauces, soups, and stews. It's the essential ingredient for building a robust tomato base in all your dishes.",
+    "description_ar": "نكهة غنية ومركزة. مصنوع من الطماطم الناضجة تحت أشعة الشمس، يقدم معجوننا لوناً أحمر غامقاً وقواماً سميكاً وناعماً. كمية صغيرة تضيف نكهة قوية وحامضة للصلصات، الشوربات، واليخنات. إنه المكون الأساسي لبناء قاعدة طماطم قوية في جميع أطباقك.",
     "image": "/products/12Prouduct.jpg"
   },
   {
-    "name": "Sweet pepper molasses",
-    "description": "A burst of rich, sweet flavor. Our sweet pepper molasses is crafted from ripe, red peppers, slow-cooked to a thick, rich consistency. It delivers a deeply concentrated, naturally sweet flavor, perfect for adding a vibrant touch to sauces, marinades, and dips. It's an ideal ingredient for enhancing dishes with a unique, robust sweetness.",
+    "name_en": "Sweet pepper molasses",
+    "name_ar": "دبس الفليفلة الحلوة",
+    "description_en": "A burst of rich, sweet flavor. Our sweet pepper molasses is crafted from ripe, red peppers, slow-cooked to a thick, rich consistency. It delivers a deeply concentrated, naturally sweet flavor, perfect for adding a vibrant touch to sauces, marinades, and dips. It's an ideal ingredient for enhancing dishes with a unique, robust sweetness.",
+    "description_ar": "انفجار من النكهة الغنية والحلوة. دبس الفليفلة الحلوة لدينا مصنوع من الفليفلة الحمراء الناضجة والمطهوة ببطء حتى تصل إلى قوام سميك وغني. يمنح نكهة مركزة وحلاوة طبيعية، مثالي لإضافة لمسة نابضة بالحياة للصلصات، التتبيلات، والمقبلات. إنه مكون مثالي لتعزيز الأطباق بحلاوة فريدة وقوية.",
     "image": "/products/13Prouduct.jpg"
   },
   {
-    "name": "Extra virgin olive oil ",
-    "description": "Liquid gold for your kitchen. Our extra virgin olive oil is cold-pressed from the finest olives, ensuring a rich, fruity flavor and a vibrant hue. With a distinct aroma and a smooth, peppery finish, it’s perfect for dressings, dipping, and sautéing. This high-quality oil adds a touch of authentic flavor and healthy goodness to any meal.",
+    "name_en": "Extra virgin olive oil",
+    "name_ar": "زيت زيتون بكر ممتاز",
+    "description_en": "Liquid gold for your kitchen. Our extra virgin olive oil is cold-pressed from the finest olives, ensuring a rich, fruity flavor and a vibrant hue. With a distinct aroma and a smooth, peppery finish, it’s perfect for dressings, dipping, and sautéing. This high-quality oil adds a touch of authentic flavor and healthy goodness to any meal.",
+    "description_ar": "الذهب السائل لمطبخك. زيت الزيتون البكر الممتاز لدينا معصور على البارد من أجود أنواع الزيتون، ليمنح نكهة غنية وفاكهية مع لون حيوي. يتميز برائحة مميزة ونهاية ناعمة وفلفلية، مما يجعله مثالياً للصلصات، الغمس، والقلي السريع. هذا الزيت عالي الجودة يضيف لمسة نكهة أصيلة وفوائد صحية لأي وجبة.",
     "image": "/products/14Prouduct.jpg"
   },
   {
-    "name": "Pomegranate molasses",
-    "description": "Tangy and sweet. Our pomegranate molasses is made from 100% pure pomegranate juice, slowly reduced to a thick, syrupy concentrate. It offers a unique balance of tartness and natural sweetness, making it a versatile ingredient for marinades, dressings, and glazes. Use it to add a distinctive, bold flavor to enhance a wide range of recipes.",
+    "name_en": "Pomegranate molasses",
+    "name_ar": "دبس الرمان",
+    "description_en": "Tangy and sweet. Our pomegranate molasses is made from 100% pure pomegranate juice, slowly reduced to a thick, syrupy concentrate. It offers a unique balance of tartness and natural sweetness, making it a versatile ingredient for marinades, dressings, and glazes. Use it to add a distinctive, bold flavor to enhance a wide range of recipes.",
+    "description_ar": "حامض وحلو في آن واحد. دبس الرمان لدينا مصنوع من عصير رمان نقي 100%، مطهو ببطء حتى يصل إلى قوام كثيف وسيروبي مركز. يقدم توازناً فريداً بين الحموضة والحلاوة الطبيعية، مما يجعله مكوناً متعدد الاستخدامات للتتبيلات، الصلصات، والتغطيات. استخدمه لإضافة نكهة مميزة وجريئة تعزز مجموعة واسعة من الوصفات.",
     "image": "/products/15Prouduct.jpg"
   },
   {
-    "name": "Barbican",
-    "description": "A refreshing, non-alcoholic malt beverage. Barbican is a sparkling, crisp drink with a unique malt flavor that’s perfect for any occasion. It offers a sophisticated taste that's a fantastic alternative to traditional sodas. Enjoy it chilled for a truly revitalizing experience that’s both delicious and satisfying.",
+    "name_en": "Barbican",
+    "name_ar": "بربيكان",
+    "description_en": "A refreshing, non-alcoholic malt beverage. Barbican is a sparkling, crisp drink with a unique malt flavor that’s perfect for any occasion. It offers a sophisticated taste that's a fantastic alternative to traditional sodas. Enjoy it chilled for a truly revitalizing experience that’s both delicious and satisfying.",
+    "description_ar": "مشروب شعير منعش خالٍ من الكحول. بربيكان هو مشروب غازي ومنعش يتميز بنكهات الشعير الفريدة، مما يجعله مناسباً لأي مناسبة. يقدم طعماً راقياً يشكل بديلاً رائعاً عن المشروبات الغازية التقليدية. استمتع به بارداً لتجربة منعشة لذيذة ومشبعة.",
     "image": "/products/16Prouduct.jpg"
   },
   {
-    "name": "Wood charcoal",
-    "description": "The key to genuine grilled flavor. Our wood charcoal is crafted from premium wood for a long, consistent burn and even heat. It provides a stable heat source that cooks food to perfection. This high-quality charcoal is the top choice for achieving an authentic and delicious barbecue experience.",
+    "name_en": "Wood charcoal",
+    "name_ar": "فحم خشبي",
+    "description_en": "The key to genuine grilled flavor. Our wood charcoal is crafted from premium wood for a long, consistent burn and even heat. It provides a stable heat source that cooks food to perfection. This high-quality charcoal is the top choice for achieving an authentic and delicious barbecue experience.",
+    "description_ar": "المفتاح للحصول على نكهة شواء أصلية. فحمنا الخشبي مصنوع من خشب عالي الجودة ليمنح احتراقاً طويلاً ومتساوياً وحرارة ثابتة. يوفر مصدر حرارة مستقر يطبخ الطعام حتى الكمال. هذا الفحم عالي الجودة هو الخيار الأمثل لتحقيق تجربة شواء لذيذة وأصيلة.",
     "image": "/products/17Prouduct.jpg"
   },
   {
-    "name": "Extra golden bassmati rice",
-    "description": "Fluffy, flavorful, and a kitchen essential. Our extra golden basmati rice is selected for its superior quality and extra-long grains. It cooks up light and separate, with a delicate flavor that perfectly complements any dish. This rice is the ideal choice for creating exquisite and impressive meals.",
+    "name_en": "Extra golden basmati rice",
+    "name_ar": "أرز بسمتي ذهبي فاخر",
+    "description_en": "Fluffy, flavorful, and a kitchen essential. Our extra golden basmati rice is selected for its superior quality and extra-long grains. It cooks up light and separate, with a delicate flavor that perfectly complements any dish. This rice is the ideal choice for creating exquisite and impressive meals.",
+    "description_ar": "منفوش، لذيذ، وأساسي في المطبخ. أرز البسمتي الذهبي الفاخر لدينا مختار لجودته العالية وحبوبه الطويلة جداً. يطهى بشكل خفيف ومنفصل، مع نكهة رقيقة تكمل أي طبق بشكل مثالي. هذا الأرز هو الخيار الأمثل لتحضير وجبات رائعة ومبهرة.",
     "image": "/products/18Prouduct.jpg"
   }
 ]
