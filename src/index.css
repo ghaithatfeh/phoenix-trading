@@ -4,7 +4,7 @@
 /* Register Segoe UI Variable font from the public folder */
 @font-face {
     font-family: "Segoe UI Variable";
-    src: url("/project-assets/SegUIVar.ttf") format("truetype");
+    src: url("/fonts/SegUIVar.ttf") format("truetype");
     font-weight: 100 900; /* variable weight range */
     font-style: normal;
     font-display: swap;
