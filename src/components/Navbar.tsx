@@ -92,22 +92,26 @@ const Navbar = () => {
 
       {/* Mobile Sliding Menu */}
       <div
-        className={`bg-dark fixed top-0 left-0 z-50 h-full w-64 transform transition-transform duration-300 ease-in-out md:hidden ${
-          isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+        className={`bg-dark fixed top-0 ${language === 'ar' ? 'right-0' : 'left-0'} z-50 h-full w-64 transform transition-transform duration-300 ease-in-out md:hidden ${
+          isMobileMenuOpen 
+            ? "translate-x-0" 
+            : language === 'ar' 
+              ? "translate-x-full" 
+              : "-translate-x-full"
         }`}
       >
         {/* Close Button */}
         <button
           onClick={closeMobileMenu}
-          className="absolute start-4 top-6 text-3xl text-white"
+          className="absolute end-4 top-6 text-3xl text-white"
           aria-label="Close menu"
         >
           &times;
         </button>
 
         {/* Logo in Mobile Menu */}
-        <div className="px-6 pt-6 pb-8">
-          <img src={"/Logo-Phoenix.svg"} width={120} alt={"Site Logo"} />
+        <div className="px-6 pt-6 pb-8 flex items-center justify-start w-full">
+          <img src={"/Logo-Phoenix.svg"}  alt={"Site Logo"} className="w-20" />
         </div>
 
         {/* Mobile Navigation Links */}
