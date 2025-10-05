@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-const LOCALE_STORAGE_KEY = "locale";
+import { LOCALE_STORAGE_KEY } from "../providers/localiztion-provider";
 const Navbar = () => {
   const {
     t,
@@ -16,16 +16,6 @@ const Navbar = () => {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
-
-  useEffect(() => {
-    let locale = window.localStorage.getItem(LOCALE_STORAGE_KEY);
-    if (!locale) {
-      locale = "en";
-    }
-
-    changeLanguage(locale);
-    window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
-  }, []);
 
   return (
     <>
@@ -61,7 +51,7 @@ const Navbar = () => {
           </a>
 
           <a
-            className={`hover:text-red-400`}
+            className={`cursor-pointer hover:text-red-400`}
             onClick={() => {
               let locale = language == "en" ? "ar" : "en";
               changeLanguage(locale);

@@ -58,7 +58,7 @@ function Home() {
           <div className={"hidden w-[40%] items-center justify-center md:flex"}>
             <img
               src={"/Logo-icon-Phoenix.svg"}
-              className="flex max-h-[80vh] w-full justify-end"
+              className="flex max-h-[80vh] w-full justify-end rtl:transform scale-x-[-1]"
             />
           </div>
         </div>
@@ -108,15 +108,15 @@ function Home() {
           </h1>
         </div>
         <div className={"flex flex-col items-start space-y-16 px-5 md:px-26"}>
-          <div className={"flex items-center justify-between gap-2"}>
+          <div className={"flex items-center justify-between gap-2 w-full"}>
             <div
               className={
-                "hidden h-full border-r-2 border-r-red-800 py-4 pe-5 md:block"
+                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
               }
             >
-              <img src={"/07-icon.svg"} className={"w-20"} />
+              <img src={"/07-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start"}>
+            <div className={"ps-3 text-start w-[93%]"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -130,15 +130,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2"}>
+          <div className={"flex items-center justify-between gap-2 w-full"}>
             <div
               className={
-                "hidden h-full border-r-2 border-r-red-800 py-4 pe-5 md:block"
+                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
               }
             >
-              <img src={"/08-icon.svg"} className={"w-13"} />
+              <img src={"/08-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start"}>
+            <div className={"ps-3 text-start w-[93%]"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -152,15 +152,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2"}>
+          <div className={"flex items-center justify-between gap-2 w-full"}>
             <div
               className={
-                "hidden h-full border-r-2 border-r-red-800 py-4 pe-5 md:block"
+                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
               }
             >
-              <img src={"/09-icon.svg"} className={"w-15"} />
+              <img src={"/09-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start"}>
+            <div className={"ps-3 text-start w-[93%]"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -174,15 +174,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2"}>
+          <div className={"flex items-center justify-between gap-2 w-full"}>
             <div
               className={
-                "hidden h-full border-r-2 border-r-red-800 py-4 pe-5 md:block"
+                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
               }
             >
-              <img src={"/10-icon.svg"} className={"w-13"} />
+              <img src={"/10-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start"}>
+            <div className={"ps-3 text-start w-[93%]"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"

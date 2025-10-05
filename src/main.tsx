@@ -6,15 +6,18 @@ import Home from "./Home";
 import Products from "./Products.tsx";
 import Contact from "./Contact.tsx";
 import "./utils/i18n.ts";
+import LocalizationProvider from "./providers/localiztion-provider.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path={"/"} element={<Home />} />
-        <Route path={"/our-products"} element={<Products />} />
-        <Route path={"/contact-us"} element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    <LocalizationProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/our-products"} element={<Products />} />
+          <Route path={"/contact-us"} element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </LocalizationProvider>
   </StrictMode>,
 );

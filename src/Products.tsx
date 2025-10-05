@@ -46,7 +46,7 @@ const Products = () => {
           "bg-primary bg-cover bg-center bg-no-repeat py-10 md:h-screen md:bg-[url('03-Background.jpg')] md:py-0"
         }
       >
-        <div className={"flex h-full w-full items-center justify-end"}>
+        <div className={"flex h-full w-full items-center justify-end rtl:justify-start"}>
           <p className={"px-10 text-center text-3xl text-white md:w-[50%]"}>
             {t("ourProducts.discover")}
           </p>
