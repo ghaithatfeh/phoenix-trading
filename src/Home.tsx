@@ -58,7 +58,7 @@ function Home() {
           <div className={"hidden w-[40%] items-center justify-center md:flex"}>
             <img
               src={"/Logo-icon-Phoenix.svg"}
-              className="flex max-h-[80vh] w-full justify-end rtl:transform scale-x-[-1]"
+              className="flex max-h-[80vh] w-full scale-x-[-1] justify-end rtl:transform"
             />
           </div>
         </div>
@@ -108,15 +108,15 @@ function Home() {
           </h1>
         </div>
         <div className={"flex flex-col items-start space-y-16 px-5 md:px-26"}>
-          <div className={"flex items-center justify-between gap-2 w-full"}>
+          <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
+                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
               }
             >
               <img src={"/07-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start w-[93%]"}>
+            <div className={"w-[93%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -130,15 +130,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2 w-full"}>
+          <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
+                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
               }
             >
               <img src={"/08-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start w-[93%]"}>
+            <div className={"w-[93%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -152,15 +152,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2 w-full"}>
+          <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
+                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
               }
             >
               <img src={"/09-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start w-[93%]"}>
+            <div className={"w-[93%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -174,15 +174,15 @@ function Home() {
             </div>
           </div>
 
-          <div className={"flex items-center justify-between gap-2 w-full"}>
+          <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full border-e-2 border-e-red-800 w-[7%] py-4 pe-5 md:block"
+                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
               }
             >
               <img src={"/10-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"ps-3 text-start w-[93%]"}>
+            <div className={"w-[93%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -225,7 +225,7 @@ function Home() {
               >
                 <img src={"/canada.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
-                +1 (437) 231-1444
+                <span dir="ltr">+1 (437) 231-1444</span>
               </a>
 
               <a
@@ -236,7 +236,7 @@ function Home() {
               >
                 <img src={"/turkey.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
-                +90 539 693 11 33
+                <span dir="ltr">+90 539 693 11 33</span>
               </a>
 
               <a
@@ -247,7 +247,7 @@ function Home() {
               >
                 <img src={"/syria.png"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
-                +963 937 777 960
+                <span dir="ltr">+963 937 777 960</span>
               </a>
             </div>
             <div

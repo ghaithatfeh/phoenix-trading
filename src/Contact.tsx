@@ -5,7 +5,7 @@ import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 const Contact = () => {
   const { t } = useTranslation();
   return (
-    <div className={"bg-dark w-full overflow-y-scroll md:h-screen"}>
+    <div className={"bg-dark w-full h-full"}>
       <div className={"bg-dark h-full"}>
         <Navbar />
 
@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
       <div
         className={
-          "my-5 flex w-full grid-cols-5 items-center justify-center md:grid md:justify-start"
+          "my-10 flex w-full grid-cols-5 items-center justify-center md:grid md:justify-start"
         }
       >
         <img src={"04-Shape.png"} className={"hidden w-2/3 md:block"} />
@@ -64,7 +64,7 @@ const Contact = () => {
                 }
               >
                 <Phone className={"fill-primary text-primary"} />
-                +963 937 777 960
+                <span dir="ltr">+963 937 777 960</span>
               </a>
             </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
                 }
               >
                 <Phone className={"fill-primary text-primary"} />
-                +1 (437) 231-1444
+                <span dir="ltr">+1 (437) 231-1444</span>
               </a>
             </div>
 
@@ -100,7 +100,7 @@ const Contact = () => {
                 }
               >
                 <Phone className={"fill-primary text-primary"} />
-                +90 539 693 11 33
+                <span dir="ltr">+90 539 693 11 33</span>
               </a>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className={"my-10 flex w-full items-center justify-center"}>
+      <div className={"py-10 flex w-full items-center justify-center"}>
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
     </div>
