@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./Home";
 import Products from "./Products.tsx";
 import Contact from "./Contact.tsx";
+import "./utils/i18n.ts";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -1,7 +1,9 @@
 import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 import Navbar from "./components/Navbar.tsx";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <div className="h-full w-full">
       <div className={"bg-dark h-full w-full md:h-screen"}>
@@ -15,15 +17,15 @@ function Home() {
                 "text-primary !font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
               }
             >
-              Welcome to Phoenix
+              {t("welcome")}
             </h1>
             <p
               className={
                 "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
               }
             >
-              Your trusted partner for high-quality{" "}
-              <strong>Arizona Food</strong> across the globe. We're passionate
+              {t("trustedPartner")}
+              <strong>{t("arizonaFoodGlobal")}</strong>
               about bringing the finest ingredients and delicious flavors from
               our tables to yours.
             </p>
@@ -214,17 +216,25 @@ function Home() {
         </div>
 
         <div className={"px-5 pb-10 md:px-26"}>
-          <h1 className={"text-primary !font-impact mb-10 text-center md:text-start text-2xl md:text-3xl"}>
+          <h1
+            className={
+              "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
+            }
+          >
             Phoenix General Trading Inc
           </h1>
-          <div className={"md:flex w-full space-y-10 md:space-y-0 items-center justify-between"}>
+          <div
+            className={
+              "w-full items-center justify-between space-y-10 md:flex md:space-y-0"
+            }
+          >
             <div
               className={"flex flex-col items-start justify-start space-y-6"}
             >
               <a
                 href={"tel:+14372311444"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <img src={"/canada.png"} className={"w-8"} />
@@ -235,7 +245,7 @@ function Home() {
               <a
                 href={"tel:+905396931133"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <img src={"/turkey.png"} className={"w-8"} />
@@ -246,7 +256,7 @@ function Home() {
               <a
                 href={"tel:+963937777960"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <img src={"/syria.png"} className={"w-8"} />
@@ -260,7 +270,7 @@ function Home() {
               <a
                 href={"mailto:Info@phoenixtradings.ca"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <Mail className={"text-primary"} />
@@ -270,7 +280,7 @@ function Home() {
               <a
                 href={"https://www.instagram.com/ARIZONA1FOODS"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <Instagram className={"text-primary"} />
@@ -279,7 +289,7 @@ function Home() {
               <a
                 href={"https://www.facebook.com/arizonafoods"}
                 className={
-                  "flex items-center gap-2 md:text-2xl text-white hover:underline"
+                  "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
                 <FacebookIcon className={"text-primary"} />
