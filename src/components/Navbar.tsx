@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LOCALE_STORAGE_KEY } from "../providers/localiztion-provider";
+import { Link } from "react-router";
+
 const Navbar = () => {
   const {
     t,
@@ -31,35 +33,36 @@ const Navbar = () => {
             "mx-auto hidden items-center justify-center gap-16 border-b-2 border-white pb-5 text-2xl font-bold text-white md:flex"
           }
         >
-          <a
-            href={"/"}
+          <Link
+            to={"/"}
             className={`${window.location.pathname == "/" ? "!text-primary" : ""} hover:text-red-400`}
           >
             {t("home")}
-          </a>
-          <a
-            href={"/our-products"}
+          </Link>
+          <Link
+            to={"/our-products"}
             className={`${window.location.pathname == "/our-products" ? "!text-primary" : ""} hover:text-red-400`}
           >
             {t("ourProductsNav")}
-          </a>
-          <a
-            href={"/contact-us"}
+          </Link>
+          <Link
+            to={"/contact-us"}
             className={`${window.location.pathname == "/contact-us" ? "!text-primary" : ""} hover:text-red-400`}
           >
             {t("contactUsNav")}
-          </a>
+          </Link>
 
-          <a
+          <Link
+            to={""}
             className={`cursor-pointer hover:text-red-400`}
             onClick={() => {
-              let locale = language == "en" ? "ar" : "en";
+              const locale = language == "en" ? "ar" : "en";
               changeLanguage(locale);
               window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
             }}
           >
             {language == "en" ? "Arabic" : "انكليزي"}
-          </a>
+          </Link>
         </nav>
 
         {/* Hamburger Menu Button - Mobile Only */}
@@ -92,11 +95,11 @@ const Navbar = () => {
 
       {/* Mobile Sliding Menu */}
       <div
-        className={`bg-dark fixed top-0 ${language === 'ar' ? 'right-0' : 'left-0'} z-50 h-full w-64 transform transition-transform duration-300 ease-in-out md:hidden ${
-          isMobileMenuOpen 
-            ? "translate-x-0" 
-            : language === 'ar' 
-              ? "translate-x-full" 
+        className={`bg-dark fixed top-0 ${language === "ar" ? "right-0" : "left-0"} z-50 h-full w-64 transform transition-transform duration-300 ease-in-out md:hidden ${
+          isMobileMenuOpen
+            ? "translate-x-0"
+            : language === "ar"
+              ? "translate-x-full"
               : "-translate-x-full"
         }`}
       >
@@ -110,50 +113,51 @@ const Navbar = () => {
         </button>
 
         {/* Logo in Mobile Menu */}
-        <div className="px-6 pt-6 pb-8 flex items-center justify-start w-full">
-          <img src={"/Logo-Phoenix.svg"}  alt={"Site Logo"} className="w-20" />
+        <div className="flex w-full items-center justify-start px-6 pt-6 pb-8">
+          <img src={"/Logo-Phoenix.svg"} alt={"Site Logo"} className="w-20" />
         </div>
 
         {/* Mobile Navigation Links */}
         <nav className="flex flex-col gap-6 px-6">
-          <a
-            href={"/"}
+          <Link
+            to={"/"}
             onClick={closeMobileMenu}
             className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             {t("home")}
-          </a>
-          <a
-            href={"/our-products"}
+          </Link>
+          <Link
+            to={"/our-products"}
             onClick={closeMobileMenu}
             className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/our-products" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             {t("ourProductsNav")}
-          </a>
-          <a
-            href={"/contact-us"}
+          </Link>
+          <Link
+            to={"/contact-us"}
             onClick={closeMobileMenu}
             className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/contact-us" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
             {t("contactUsNav")}
-          </a>
-          <a
+          </Link>
+          <Link
+            to={""}
             className={`border-b border-gray-700 pb-3 text-xl font-bold text-white hover:text-red-400`}
             onClick={() => {
-              let locale = language == "en" ? "ar" : "en";
+              const locale = language == "en" ? "ar" : "en";
               changeLanguage(locale);
               window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
               closeMobileMenu();
             }}
           >
             {language == "en" ? "Arabic" : "انكليزي"}
-          </a>
+          </Link>
         </nav>
       </div>
     </>
