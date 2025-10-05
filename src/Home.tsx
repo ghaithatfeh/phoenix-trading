@@ -24,9 +24,8 @@ function Home() {
                 "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
               }
             >
-              {t("trustedPartner")}{" "}
-              <strong>{t("arizonaFood")}</strong> {t("acrossGlobe")}{" "}
-              {t("finestIngredients")}
+              {t("trustedPartner")} <strong>{t("arizonaFood")}</strong>{" "}
+              {t("acrossGlobe")} {t("finestIngredients")}
             </p>
 
             <div
@@ -66,10 +65,8 @@ function Home() {
       </div>
       <div className="flex w-full items-center justify-center bg-[url('/05-Market-BG.jpg')] p-5 md:h-[35vh] md:p-24">
         <p className="text-center text-xl text-white md:text-3xl">
-          Founded in 2015, <strong>Arizona Food</strong> has quickly become a
-          trusted name in food manufacturing and distribution. Our success is
-          built on a commitment to quality, reliability, and a deep appreciation
-          for global culinary traditions.
+          {t("foundedIn2015")} <strong>{t("arizonaFood")}</strong>{" "}
+          {t("hasQuicklyBecome")}
         </p>
       </div>
       <div className={"bg-dark w-full"}>
@@ -79,7 +76,7 @@ function Home() {
               "text-primary !font-impact text-center text-4xl md:text-start md:text-5xl"
             }
           >
-            Our Journey & Global Reach
+            {t("ourJourneyTitle")}
           </h1>
         </div>
         <div className={"flex items-center justify-between md:px-26"}>
@@ -92,11 +89,7 @@ function Home() {
                 "px-5 text-center text-xl text-white md:px-0 md:text-3xl"
               }
             >
-              From our beginnings in the Middle East in 2015, we expanded to
-              Turkey in 2016, reached every corner of Canada by 2023, and
-              proudly established our presence in Syria in 2024. Our journey
-              reflects a steadfast commitment to excellence and the ability to
-              serve diverse markets with confidence and care.
+              {t("ourJourney")}
             </p>
           </div>
         </div>
@@ -111,7 +104,7 @@ function Home() {
               "text-primary !font-impact text-center text-4xl md:text-start md:text-5xl"
             }
           >
-            Why Choose Arizona Food?
+            {t("whyChooseUs")}
           </h1>
         </div>
         <div className={"flex flex-col items-start space-y-16 px-5 md:px-26"}>
@@ -129,12 +122,10 @@ function Home() {
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
                 }
               >
-                Global Quality Standards:
+                {t("globalQualityStandards")}:
               </h2>
               <p className={"text-xl text-white"}>
-                We adhere to the strictest international standards in
-                manufacturing and distribution, ensuring every product meets
-                your expectations for safety and excellence.
+                {t("globalQualityStandardsDescription")}
               </p>
             </div>
           </div>
@@ -153,11 +144,10 @@ function Home() {
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
                 }
               >
-                Diverse Product Range:
+                {t("diverseProductRange")}:
               </h2>
               <p className={"text-xl text-white"}>
-                From staple ingredients to specialty items, our wide selection
-                caters to varied tastes and culinary needs
+                {t("diverseProductRangeDescription")}
               </p>
             </div>
           </div>
@@ -176,12 +166,10 @@ function Home() {
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
                 }
               >
-                Reliable Partnership:
+                {t("reliablePartnership")}:
               </h2>
               <p className={"text-xl text-white"}>
-                We pride ourselves on building strong, lasting relationships
-                with our partners and customers, founded on transparency and
-                efficiency.
+                {t("reliablePartnershipDescription")}
               </p>
             </div>
           </div>
@@ -200,11 +188,10 @@ function Home() {
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
                 }
               >
-                Commitment to Innovation:
+                {t("commitmentToInnovation")}:
               </h2>
               <p className={"text-2xl text-white"}>
-                We constantly explore new tastes and production methods to bring
-                you the best and most innovative food solutions.
+                {t("commitmentToInnovationDescription")}
               </p>
             </div>
           </div>
@@ -220,7 +207,7 @@ function Home() {
               "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
             }
           >
-            Phoenix General Trading Inc
+            {t("companyName")}
           </h1>
           <div
             className={
