@@ -1,6 +1,10 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const {
+    i18n: { changeLanguage, language },
+  } = useTranslation();
   const pathname = window.location.pathname;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -16,7 +20,7 @@ const Navbar = () => {
     <>
       <div className={"flex items-center pt-6"}>
         {/*  Site Logo  */}
-        <div className={"ps-4 md:ps-26 w-32 md:w-64"}>
+        <div className={"w-32 ps-4 md:w-64 md:ps-26"}>
           <img src={"/Logo-Phoenix.svg"} alt={"Site Logo"} />
         </div>
 
@@ -44,12 +48,21 @@ const Navbar = () => {
           >
             Contact Us
           </a>
+
+          <a
+            className={`hover:text-red-400`}
+            onClick={() => {
+              changeLanguage(language == "en" ? "ar" : "en");
+            }}
+          >
+            {language == "en" ? "AR" : "انكليزي"}
+          </a>
         </nav>
 
         {/* Hamburger Menu Button - Mobile Only */}
         <button
           onClick={toggleMobileMenu}
-          className="ml-auto mr-4 flex flex-col gap-1.5 md:hidden"
+          className="mr-4 ml-auto flex flex-col gap-1.5 md:hidden"
           aria-label="Toggle menu"
         >
           <span className="h-0.5 w-8 bg-white transition-all"></span>
@@ -69,21 +82,21 @@ const Navbar = () => {
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black bg-opacity-50 md:hidden"
+          className="bg-opacity-50 fixed inset-0 z-40 bg-black md:hidden"
           onClick={closeMobileMenu}
         ></div>
       )}
 
       {/* Mobile Sliding Menu */}
       <div
-        className={`fixed left-0 top-0 z-50 h-full w-64 bg-dark transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`bg-dark fixed top-0 left-0 z-50 h-full w-64 transform transition-transform duration-300 ease-in-out md:hidden ${
           isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         {/* Close Button */}
         <button
           onClick={closeMobileMenu}
-          className="absolute right-4 top-6 text-white text-3xl"
+          className="absolute top-6 right-4 text-3xl text-white"
           aria-label="Close menu"
         >
           &times;
@@ -99,7 +112,7 @@ const Navbar = () => {
           <a
             href={"/"}
             onClick={closeMobileMenu}
-            className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
+            className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
@@ -108,7 +121,7 @@ const Navbar = () => {
           <a
             href={"/our-products"}
             onClick={closeMobileMenu}
-            className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
+            className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/our-products" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
@@ -117,7 +130,7 @@ const Navbar = () => {
           <a
             href={"/contact-us"}
             onClick={closeMobileMenu}
-            className={`text-xl font-bold text-white border-b border-gray-700 pb-3 ${
+            className={`border-b border-gray-700 pb-3 text-xl font-bold text-white ${
               window.location.pathname == "/contact-us" ? "!text-primary" : ""
             } hover:text-red-400`}
           >

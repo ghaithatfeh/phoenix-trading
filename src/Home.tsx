@@ -24,10 +24,9 @@ function Home() {
                 "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
               }
             >
-              {t("trustedPartner")}
-              <strong>{t("arizonaFoodGlobal")}</strong>
-              about bringing the finest ingredients and delicious flavors from
-              our tables to yours.
+              {t("trustedPartner")}{" "}
+              <strong>{t("arizonaFood")}</strong> {t("acrossGlobe")}{" "}
+              {t("finestIngredients")}
             </p>
 
             <div
