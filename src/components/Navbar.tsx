@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* Hamburger Menu Button - Mobile Only */}
         <button
           onClick={toggleMobileMenu}
-          className="mr-4 ml-auto flex flex-col gap-1.5 md:hidden"
+          className="ms-auto me-4 flex flex-col gap-1.5 md:hidden"
           aria-label="Toggle menu"
         >
           <span className="h-0.5 w-8 bg-white transition-all"></span>
@@ -99,7 +99,7 @@ const Navbar = () => {
         {/* Close Button */}
         <button
           onClick={closeMobileMenu}
-          className="absolute top-6 right-4 text-3xl text-white"
+          className="absolute start-4 top-6 text-3xl text-white"
           aria-label="Close menu"
         >
           &times;
@@ -119,7 +119,7 @@ const Navbar = () => {
               window.location.pathname == "/" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
-            Home
+            {t("home")}
           </a>
           <a
             href={"/our-products"}
@@ -128,7 +128,7 @@ const Navbar = () => {
               window.location.pathname == "/our-products" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
-            Our Products
+            {t("ourProductsNav")}
           </a>
           <a
             href={"/contact-us"}
@@ -137,7 +137,18 @@ const Navbar = () => {
               window.location.pathname == "/contact-us" ? "!text-primary" : ""
             } hover:text-red-400`}
           >
-            Contact Us
+            {t("contactUsNav")}
+          </a>
+          <a
+            className={`border-b border-gray-700 pb-3 text-xl font-bold text-white hover:text-red-400`}
+            onClick={() => {
+              let locale = language == "en" ? "ar" : "en";
+              changeLanguage(locale);
+              window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+              closeMobileMenu();
+            }}
+          >
+            {language == "en" ? "Arabic" : "انكليزي"}
           </a>
         </nav>
       </div>
