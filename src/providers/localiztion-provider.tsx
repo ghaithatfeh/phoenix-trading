@@ -23,7 +23,7 @@ const LocalizationProvider = ({ children }: { children: ReactNode }) => {
       return;
     }
     el.setAttribute("lang", locale);
-    el.setAttribute("dir", locale == "en" ? "ltr" : "rtl");
+    el.setAttribute("dir", locale == "ar" ? "rtl" : "ltr");
   });
   return <>{children}</>;
 };

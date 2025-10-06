@@ -24,8 +24,7 @@ function Home() {
                 "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
               }
             >
-              {t("trustedPartner")} <strong>{t("arizonaFood")}</strong>{" "}
-              {t("acrossGlobe")} {t("finestIngredients")}
+              {t("welcomeDescription")}
             </p>
 
             <div
@@ -65,8 +64,7 @@ function Home() {
       </div>
       <div className="flex w-full items-center justify-center bg-[url('/05-Market-BG.jpg')] p-5 md:h-[35vh] md:p-24">
         <p className="text-center text-xl text-white md:text-3xl">
-          {t("foundedIn2015")} <strong>{t("arizonaFood")}</strong>{" "}
-          {t("hasQuicklyBecome")}
+          {t("foundedIn2015")}
         </p>
       </div>
       <div className={"bg-dark w-full"}>

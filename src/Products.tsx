@@ -75,21 +75,33 @@ const Products = () => {
             <div className={"h-[50%] w-full"}>
               <img
                 src={product.image}
-                alt={language === "en" ? product.name_en : product.name_ar}
+                alt={
+                  language === "en"
+                    ? product.name_en
+                    : language == "fr"
+                      ? product.name_fr
+                      : product.name_ar
+                }
                 className={"h-full w-full object-cover"}
               />
             </div>
             <h1
               className={
-                "!font-impact bg-primary p-2 text-center text-xl text-white"
+                "!font-impact bg-primary p-2 text-center text-white"
               }
             >
-              {language === "en" ? product.name_en : product.name_ar}
+              {language === "en"
+                ? product.name_en
+                : language == "fr"
+                  ? product.name_fr
+                  : product.name_ar}
             </h1>
             <p className={"text-md p-5 text-center !leading-5"}>
               {language === "en"
                 ? product.description_en
-                : product.description_ar}
+                : language == "fr"
+                  ? product.description_fr
+                  : product.description_ar}
             </p>
           </div>
         ))}

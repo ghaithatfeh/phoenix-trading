@@ -1,0 +1,38 @@
+{
+  "translation": {
+    "welcome": "Bienvenue chez Phoenix",
+    "welcomeDescription": "votre partenaire de confiance pour des produits alimentaires de qualité en provenance d’Arizona, à travers le monde. Nous sommes passionnés par l’idée de vous apporter les meilleurs ingrédients et des saveurs délicieuses, de notre table à la vôtre.",
+    "foundedIn2015": "Fondée en 2015, Arizona Food est rapidement devenue une référence fiable dans la fabrication et la distribution alimentaire. Notre succès repose sur un engagement envers la qualité, la fiabilité, et une profonde appréciation des traditions culinaires mondiales.",
+    "ourJourneyTitle": "Notre parcours et notre portée Mondiale",
+    "ourJourney": "Depuis nos débuts au Moyen-Orient en 2015, nous nous sommes étendus en Turquie en 2016, avons atteint tous les coins du Canada en 2023, et avons fièrement établi notre présence en Syrie en 2024. Notre parcours reflète un engagement constant envers l’excellence et la capacité à servir des marchés diversifiés avec confiance et soin. ",
+    "whyChooseUs": "Pourquoi choisir Arizona Food ?",
+    "globalQualityStandards": "Normes de Qualité Mondiales",
+    "globalQualityStandardsDescription": "Nous respectons les normes internationales les plus strictes en matière de fabrication et de distribution, garantissant que chaque produit répond à vos attentes en matière de sécurité et d’excellence.",
+    "diverseProductRange": "Gamme de Produits Diversifiée",
+    "diverseProductRangeDescription": "Des ingrédients de base aux produits spécialisés, notre large sélection répond à des goûts et besoins culinaires variés.",
+    "reliablePartnership": "Partenariat Fiable",
+    "reliablePartnershipDescription": "Nous sommes fiers de bâtir des relations solides et durables avec nos partenaires et clients, fondées sur la transparence et l’efficacité.",
+    "commitmentToInnovation": "Engagement envers l’Innovation",
+    "commitmentToInnovationDescription": "Nous explorons constamment de nouvelles saveurs et méthodes de production pour vous offrir les meilleures solutions alimentaires, les plus innovantes.",
+    "companyName": "Phoenix General Trading Inc.",
+    "home": "Accueil",
+    "ourProductsNav": "Nos Produits",
+    "contactUsNav": "Contactez-nous",
+    "ourProducts": {
+      "title": "Bienvenue aux Saveurs de Phoenix !",
+      "description": "Découvrez notre sélection soigneusement choisie de produits alimentaires haut de gamme, où qualité et goût se rencontrent à chaque bouchée. Chez Phoenix, nous croyons que la grande cuisine commence avec les meilleurs ingrédients. Chaque article de notre collection est sélectionné avec soin pour vous offrir une expérience culinaire incomparable, que vous soyez un chef professionnel ou un cuisinier amateur.",
+      "discover": "Plongez et découvrez la riche variété, la fraîcheur exceptionnelle et les saveurs exquis qui définissent la marque Phoenix. Nous nous engageons à apporter le meilleur à votre table, à chaque fois.",
+      "products": "Nos Produits"
+    },
+    "contactUs": {
+      "title": "Demandes, partenariats et plus : restons connectés",
+      "description": "Nous serions ravis de vous entendre ! Que vous ayez des questions sur les produits ARIZONA, que vous souhaitiez partager votre avis ou explorer des opportunités de partenariat, notre équipe est là pour vous aider. Contactez-nous dès aujourd'hui !",
+      "syria": "Syrie",
+      "canada": "Canada",
+      "turkey": "Turquie"
+    },
+    "arabic": "Arabe",
+    "english": "Anglais",
+    "french": "Français"
+  }
+}
