@@ -54,7 +54,7 @@ const Contact = () => {
                   "flex items-center gap-2 text-2xl font-bold text-white"
                 }
               >
-                <img src={"/syria.png"} className={"w-8"} />
+                <img src={"/syria.svg"} className={"w-8"} />
                 {t("contactUs.syria")} :
               </div>
               <a
@@ -74,7 +74,7 @@ const Contact = () => {
                   "flex items-center gap-2 text-2xl font-bold text-white"
                 }
               >
-                <img src={"/canada.png"} className={"w-8"} />
+                <img src={"/canada.svg"} className={"w-8"} />
                 {t("contactUs.canada")} :
               </div>
               <a
@@ -90,7 +90,7 @@ const Contact = () => {
 
             <div className={"flex flex-col items-start"}>
               <div className={"flex items-center gap-2 text-2xl text-white"}>
-                <img src={"/turkey.png"} className={"w-8"} />
+                <img src={"/turkey.svg"} className={"w-8"} />
                 {t("contactUs.turkey")} :
               </div>
               <a

@@ -229,7 +229,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/canada.png"} className={"w-8"} />
+                <img src={"/canada.svg"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+1 (437) 231-1444</span>
               </a>
@@ -240,7 +240,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/turkey.png"} className={"w-8"} />
+                <img src={"/turkey.svg"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+90 539 693 11 33</span>
               </a>
@@ -251,7 +251,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/syria.png"} className={"w-8"} />
+                <img src={"/syria.svg"} className={"w-8"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+963 937 777 960</span>
               </a>
