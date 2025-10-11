@@ -107,11 +107,11 @@ const Products = () => {
         ))}
       </div>
 
-      <div className={"my-10 flex w-full items-center justify-center"}>
+      <div className={"py-24 flex w-full items-center justify-center"}>
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
 
-      <div className={"px-10 pb-10 md:px-36"}>
+      <div className={"px-10 pb-10 md:px-56"}>
         <h1
           className={
             "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"

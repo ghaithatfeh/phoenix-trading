@@ -10,31 +10,36 @@ function Home() {
         {/* Navbar */}
         <Navbar />
 
-        <div className={"py-10 flex w-full items-center justify-between md:my-0"}>
-          <div className={"w-full md:w-[60%] h-[70vh] flex flex-col justify-center"}>
-           <div className="w-full h-full">
-             <h1
-              className={
-                "text-primary !font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
-              }
-            >
-              {t("welcome")}
-            </h1>
-            <p
-              className={
-                "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
-              }
-            >
-              {t("welcomeDescription")}
-            </p>
-           </div>
+        <div
+          className={"flex w-full items-center justify-between py-10 md:my-0"}
+        >
+          <div
+            className={
+              "flex h-[70vh] w-full flex-col justify-center md:w-[60%]"
+            }
+          >
+            <div className="h-full w-full">
+              <h1
+                className={
+                  "text-primary !font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
+                }
+              >
+                {t("welcome")}
+              </h1>
+              <p
+                className={
+                  "my-10 px-5 text-center text-xl text-white md:ps-26 md:pe-16 md:text-start md:text-3xl"
+                }
+                dangerouslySetInnerHTML={{ __html: t("welcomeDescription") }}
+              />
+            </div>
 
             <div
               className={
-                "flex max-h-[20vh] w-full items-center justify-between px-5 "
+                "flex max-h-[20vh] w-full items-center justify-between px-5"
               }
             >
-              <div className="hidden flex-col space-y-6 md:flex me-12">
+              <div className="me-12 hidden flex-col space-y-6 md:flex">
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
@@ -65,9 +70,10 @@ function Home() {
         </div>
       </div>
       <div className="flex w-full items-center justify-center bg-[url('/05-Market-BG.jpg')] p-5 md:h-[35vh] md:p-24">
-        <p className="text-center text-xl text-white md:text-3xl">
-          {t("foundedIn2015")}
-        </p>
+        <p
+          className="text-center text-xl text-white md:text-3xl"
+          dangerouslySetInnerHTML={{ __html: t("foundedIn2015") }}
+        />
       </div>
       <div className={"bg-dark w-full"}>
         <div className={"flex w-full items-center justify-center py-20"}>
@@ -111,12 +117,12 @@ function Home() {
           <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
+                "hidden h-full w-[5%] border-e-2 border-e-primary py-4 pe-5 md:block"
               }
             >
               <img src={"/07-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"w-[93%] ps-3 text-start"}>
+            <div className={"w-[95%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -133,12 +139,12 @@ function Home() {
           <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
+                "hidden h-full w-[5%] border-e-2 border-e-primary py-4 pe-5 md:block"
               }
             >
               <img src={"/08-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"w-[93%] ps-3 text-start"}>
+            <div className={"w-[95%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -155,12 +161,12 @@ function Home() {
           <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
+                "hidden h-full w-[5%] border-e-2 border-e-primary py-4 pe-5 md:block"
               }
             >
               <img src={"/09-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"w-[93%] ps-3 text-start"}>
+            <div className={"w-[95%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -177,12 +183,12 @@ function Home() {
           <div className={"flex w-full items-center justify-between gap-2"}>
             <div
               className={
-                "hidden h-full w-[7%] border-e-2 border-e-red-800 py-4 pe-5 md:block"
+                "hidden h-full w-[5%] border-e-2 border-e-primary py-4 pe-5 md:block"
               }
             >
               <img src={"/10-icon.svg"} className={"w-full"} />
             </div>
-            <div className={"w-[93%] ps-3 text-start"}>
+            <div className={"w-[95%] ps-3 text-start"}>
               <h2
                 className={
                   "rounded-sm border-b-2 border-b-red-800 py-4 text-3xl font-bold text-white md:border-b-0"
@@ -197,11 +203,11 @@ function Home() {
           </div>
         </div>
 
-        <div className={"flex items-center justify-center py-10"}>
+        <div className={"flex items-center justify-center py-24"}>
           <div className={"bg-primary h-2 w-[60%] rounded-md"}></div>
         </div>
 
-        <div className={"px-5 pb-10 md:px-26"}>
+        <div className={"px-5 pb-10 md:px-56"}>
           <h1
             className={
               "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"

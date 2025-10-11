@@ -37,7 +37,7 @@ const Contact = () => {
         />
       </div>
 
-      <div className={"bg-dark mt-16 px-10 pb-10 md:px-36"}>
+      <div className={"bg-dark mt-16 px-10 pb-10 md:px-56"}>
         <div
           className={
             "flex w-full flex-col items-start justify-between space-y-10 md:flex-row md:space-y-0"

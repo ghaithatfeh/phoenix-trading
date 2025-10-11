@@ -22,7 +22,7 @@
 
 @theme{
     --color-dark: #131212;
-    --color-primary: #be2428;
+    --color-primary: #bf2328;
     /* Expose the font to Tailwind utilities */
     --font-segoe: "Segoe UI Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-impact: "ImpactCustom", sans-serif;
