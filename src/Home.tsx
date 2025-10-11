@@ -40,9 +40,9 @@ function Home() {
               }
             >
               <div className="me-12 hidden flex-col space-y-6 md:flex">
-                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
-                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
-                <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
+                <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
+                <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
+                <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
               </div>
               <img
                 src={"/Logo-Phoenix.svg"}

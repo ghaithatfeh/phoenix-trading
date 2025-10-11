@@ -153,9 +153,9 @@ const Navbar = () => {
 
         {pathname != "/" && (
           <div className="hidden flex-col space-y-6 self-end md:flex">
-            <div className="from-primary h-2 w-40 rounded-l-full bg-gradient-to-l to-red-600" />
-            <div className="from-primary h-2 w-40 rounded-l-full bg-gradient-to-l to-red-600" />
-            <div className="from-primary h-2 w-40 rounded-l-full bg-gradient-to-l to-red-600" />
+            <div className="from-primary h-2 w-40 bg-gradient-to-l to-red-600 ltr:rounded-r-full rtl:rounded-l-full" />
+            <div className="from-primary h-2 w-40 bg-gradient-to-l to-red-600 ltr:rounded-r-full rtl:rounded-l-full" />
+            <div className="from-primary h-2 w-40 bg-gradient-to-l to-red-600 ltr:rounded-r-full rtl:rounded-l-full" />
           </div>
         )}
       </div>
@@ -224,7 +224,7 @@ const Navbar = () => {
           <div className="border-b border-gray-700 pb-3">
             <button
               onClick={() => handleLanguageChange("en")}
-              className={`block w-full py-2 text-left text-xl font-bold ${
+              className={`block w-full py-2 text-start text-xl font-bold ${
                 language === "en" ? "text-primary" : "text-white"
               } hover:text-red-400`}
             >
@@ -232,7 +232,7 @@ const Navbar = () => {
             </button>
             <button
               onClick={() => handleLanguageChange("ar")}
-              className={`block w-full py-2 text-left text-xl font-bold ${
+              className={`block w-full py-2 text-start text-xl font-bold ${
                 language === "ar" ? "text-primary" : "text-white"
               } hover:text-red-400`}
             >
@@ -240,7 +240,7 @@ const Navbar = () => {
             </button>
             <button
               onClick={() => handleLanguageChange("fr")}
-              className={`block w-full py-2 text-left text-xl font-bold ${
+              className={`block w-full py-2 text-start text-xl font-bold ${
                 language === "fr" ? "text-primary" : "text-white"
               } hover:text-red-400`}
             >
