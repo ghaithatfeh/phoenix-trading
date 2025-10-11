@@ -52,7 +52,7 @@ const Navbar = () => {
     <>
       <div className={"flex items-center pt-6"}>
         {/*  Site Logo  */}
-        <div className={"w-32 ps-4 md:w-64 md:ps-26"}>
+        <div className={"w-32 ps-4 md:w-68 md:ps-26"}>
           <img src={"/Logo-Phoenix.svg"} alt={"Site Logo"} />
         </div>
 

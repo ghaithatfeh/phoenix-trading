@@ -10,9 +10,10 @@ function Home() {
         {/* Navbar */}
         <Navbar />
 
-        <div className={"mt-10 flex w-full items-end justify-between md:my-0"}>
-          <div className={"w-full md:w-[60%]"}>
-            <h1
+        <div className={"py-10 flex w-full items-center justify-between md:my-0"}>
+          <div className={"w-full md:w-[60%] h-[70vh] flex flex-col justify-center"}>
+           <div className="w-full h-full">
+             <h1
               className={
                 "text-primary !font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
               }
@@ -26,35 +27,36 @@ function Home() {
             >
               {t("welcomeDescription")}
             </p>
+           </div>
 
             <div
               className={
-                "flex max-h-[20vh] w-full items-center justify-between px-5"
+                "flex max-h-[20vh] w-full items-center justify-between px-5 "
               }
             >
-              <div className="hidden flex-col space-y-6 md:flex">
+              <div className="hidden flex-col space-y-6 md:flex me-12">
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 rounded-r-full bg-gradient-to-r to-red-600"></div>
               </div>
               <img
                 src={"/Logo-Phoenix.svg"}
-                className="max-h-[40vh] w-1/4 object-contain pb-10 md:max-w-1/6"
+                className="max-h-[40vh] w-1/3 object-contain pb-10 md:max-w-1/6"
                 alt={"alameer co logo"}
               />
               <img
                 src={"/03-Logo-Alameer.svg"}
-                className="max-h-[40vh] w-1/2 object-contain md:max-w-full"
+                className="max-h-[40vh] w-1/3 object-contain md:max-w-full"
                 alt={"alameer co logo"}
               />
               <img
                 src={"/Logo-Arizona.svg"}
-                className="max-h-[40vh] w-1/4 object-contain pb-10 md:max-w-1/6"
+                className="max-h-[40vh] w-1/3 object-contain pb-10 md:max-w-1/6"
                 alt={"alameer co logo"}
               />
             </div>
           </div>
-          <div className={"hidden w-[40%] items-center justify-center md:flex"}>
+          <div className={"hidden w-[35%] items-center justify-center md:flex"}>
             <img
               src={"/Logo-icon-Phoenix.svg"}
               className="flex max-h-[80vh] w-full scale-x-[-1] justify-end rtl:transform"
