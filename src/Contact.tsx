@@ -11,7 +11,7 @@ const Contact = () => {
 
         <h1
           className={
-            "!font-impact text-primary my-12 w-full px-5 text-center text-3xl md:px-0 md:text-6xl"
+            "ltr:!font-impact text-primary my-12 w-full px-5 text-center text-3xl md:px-0 md:text-6xl"
           }
         >
           {t("contactUs.title")}
@@ -30,14 +30,14 @@ const Contact = () => {
         }
       >
         <img src={"04-Shape.png"} className={"hidden w-2/3 md:block"} />
-        <img src={"02-Map.png"} className={"col-span-3 w-full"} />
+        <img src={"/New-Map.png"} className={"col-span-3 w-full"} />
         <img
           src={"03-Shape.png"}
           className={"hidden w-1/2 justify-self-end md:block"}
         />
       </div>
 
-      <div className={"bg-dark mt-16 px-10 pb-10 md:px-56"}>
+      <div className={"bg-dark mt-16 px-10 pb-10 md:px-56"} dir={"ltr"}>
         <div
           className={
             "flex w-full flex-col items-start justify-between space-y-10 md:flex-row md:space-y-0"

@@ -21,7 +21,7 @@ function Home() {
             <div className="h-full w-full">
               <h1
                 className={
-                  "text-primary !font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
+                  "text-primary ltr:!font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
                 }
               >
                 {t("welcome")}
@@ -79,7 +79,7 @@ function Home() {
         <div className={"flex w-full items-center justify-center py-20"}>
           <h1
             className={
-              "text-primary !font-impact text-center text-4xl md:text-start md:text-5xl"
+              "text-primary ltr:!font-impact text-center text-4xl md:text-start md:text-5xl"
             }
           >
             {t("ourJourneyTitle")}
@@ -107,7 +107,7 @@ function Home() {
         <div className={"flex w-full items-center justify-center py-10"}>
           <h1
             className={
-              "text-primary !font-impact text-center text-4xl md:text-start md:text-5xl"
+              "text-primary ltr:!font-impact text-center text-4xl md:text-start md:text-5xl"
             }
           >
             {t("whyChooseUs")}
@@ -210,7 +210,7 @@ function Home() {
         <div className={"px-5 pb-10 md:px-56"}>
           <h1
             className={
-              "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
+              "text-primary ltr:!font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
             }
           >
             {t("companyName")}
@@ -219,6 +219,7 @@ function Home() {
             className={
               "w-full items-center justify-between space-y-10 md:flex md:space-y-0"
             }
+            dir={"ltr"}
           >
             <div
               className={"flex flex-col items-start justify-start space-y-6"}

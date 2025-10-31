@@ -20,7 +20,7 @@ const Products = () => {
         >
           <h1
             className={
-              "!font-impact text-primary text-center text-4xl md:text-5xl"
+              "ltr:!font-impact text-primary text-center text-4xl md:text-5xl"
             }
           >
             {t("ourProducts.title")}
@@ -43,7 +43,7 @@ const Products = () => {
       </div>
       <div
         className={
-          "bg-primary bg-cover bg-center bg-no-repeat py-10 md:h-screen md:bg-[url('03-Background.jpg')] md:py-0"
+          "bg-primary bg-cover bg-center bg-no-repeat py-10 md:h-screen md:bg-[url('/03-Background.jpg')] md:py-0"
         }
       >
         <div
@@ -59,7 +59,7 @@ const Products = () => {
       <div className={"hidden w-full items-center justify-center md:flex"}>
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
-      <h1 className={"text-primary !font-impact my-10 text-center text-4xl"}>
+      <h1 className={"text-primary ltr:!font-impact my-10 text-center text-4xl"}>
         {t("ourProducts.products")}
       </h1>
       <div
@@ -87,7 +87,7 @@ const Products = () => {
             </div>
             <h1
               className={
-                "!font-impact bg-primary p-2 text-center text-white"
+                "ltr:!font-impact bg-primary p-2 text-center text-xl text-white"
               }
             >
               {language === "en"
@@ -114,7 +114,7 @@ const Products = () => {
       <div className={"px-10 pb-10 md:px-56"}>
         <h1
           className={
-            "text-primary !font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
+            "text-primary ltr:!font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
           }
         >
           {t("companyName")}
@@ -123,6 +123,7 @@ const Products = () => {
           className={
             "w-full items-center justify-between space-y-10 md:flex md:space-y-0"
           }
+          dir={"ltr"}
         >
           <div className={"flex flex-col items-start justify-start space-y-6"}>
             <a
