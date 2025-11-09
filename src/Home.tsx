@@ -21,7 +21,7 @@ function Home() {
             <div className="h-full w-full">
               <h1
                 className={
-                  "text-primary ltr:!font-impact text-center text-4xl md:ps-26 md:text-start md:text-5xl"
+                  "title text-primary font-bold text-center md:ps-26 md:text-start text-4xl md:text-5xl"
                 }
               >
                 {t("welcome")}
@@ -36,27 +36,27 @@ function Home() {
 
             <div
               className={
-                "flex max-h-[20vh] w-full items-center justify-between px-5"
+                "flex max-h-[20vh] w-full px-5 items-end justify-between md:justify-start md:gap-16 pb-10"
               }
             >
-              <div className="me-12 hidden flex-col space-y-6 md:flex">
+              <div className="me-8 hidden flex-col space-y-6 md:flex">
                 <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
                 <div className="from-primary h-2 w-20 ltr:rounded-r-full rtl:rounded-l-full bg-gradient-to-r to-red-600"></div>
               </div>
               <img
                 src={"/Logo-Phoenix.svg"}
-                className="max-h-[40vh] w-1/3 object-contain pb-10 md:max-w-1/6"
+                className="w-[100px] md:w-[140px]"
                 alt={"alameer co logo"}
               />
               <img
                 src={"/03-Logo-Alameer.svg"}
-                className="max-h-[40vh] w-1/3 object-contain md:max-w-full"
+                className="w-[100px] md:w-[140px]"
                 alt={"alameer co logo"}
               />
               <img
                 src={"/Logo-Arizona.svg"}
-                className="max-h-[40vh] w-1/3 object-contain pb-10 md:max-w-1/6"
+                className="w-[90px] md:w-[130px]"
                 alt={"alameer co logo"}
               />
             </div>
@@ -79,7 +79,7 @@ function Home() {
         <div className={"flex w-full items-center justify-center py-20"}>
           <h1
             className={
-              "text-primary ltr:!font-impact text-center text-4xl md:text-start md:text-5xl"
+              "title text-primary font-bold text-center text-4xl md:text-start md:text-5xl"
             }
           >
             {t("ourJourneyTitle")}
@@ -107,7 +107,7 @@ function Home() {
         <div className={"flex w-full items-center justify-center py-10"}>
           <h1
             className={
-              "text-primary ltr:!font-impact text-center text-4xl md:text-start md:text-5xl"
+              "title text-primary font-bold text-center text-4xl md:text-start md:text-5xl"
             }
           >
             {t("whyChooseUs")}
@@ -130,7 +130,7 @@ function Home() {
               >
                 {t("globalQualityStandards")}:
               </h2>
-              <p className={"text-xl text-white"}>
+              <p className={"text-2xl text-white"}>
                 {t("globalQualityStandardsDescription")}
               </p>
             </div>
@@ -152,7 +152,7 @@ function Home() {
               >
                 {t("diverseProductRange")}:
               </h2>
-              <p className={"text-xl text-white"}>
+              <p className={"text-2xl text-white"}>
                 {t("diverseProductRangeDescription")}
               </p>
             </div>
@@ -174,7 +174,7 @@ function Home() {
               >
                 {t("reliablePartnership")}:
               </h2>
-              <p className={"text-xl text-white"}>
+              <p className={"text-2xl text-white"}>
                 {t("reliablePartnershipDescription")}
               </p>
             </div>
@@ -210,7 +210,7 @@ function Home() {
         <div className={"px-5 pb-10 md:px-56"}>
           <h1
             className={
-              "text-primary ltr:!font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
+              "title text-primary font-bold mb-10 text-center text-2xl md:text-start md:text-3xl"
             }
           >
             {t("companyName")}
@@ -230,7 +230,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/canada.svg"} className={"w-8"} />
+                <img src={"/canada.png"} className={"w-8 h-6 rounded"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+1 (437) 231-1444</span>
               </a>
@@ -241,7 +241,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/turkey.svg"} className={"w-8"} />
+                <img src={"/turkey.png"} className={"w-8 h-6 rounded"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+90 539 693 11 33</span>
               </a>
@@ -252,7 +252,7 @@ function Home() {
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
               >
-                <img src={"/syria.svg"} className={"w-8"} />
+                <img src={"/syria.png"} className={"w-8 h-6 rounded"} />
                 <Phone className={"fill-primary text-primary"} />
                 <span dir="ltr">+963 937 777 960</span>
               </a>

@@ -4,6 +4,7 @@ import { FacebookIcon, Instagram, Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const { i18n: { language } } = useTranslation();
   return (
     <div className={"bg-dark w-full h-full"}>
       <div className={"bg-dark h-full"}>
@@ -11,14 +12,14 @@ const Contact = () => {
 
         <h1
           className={
-            "ltr:!font-impact text-primary my-12 w-full px-5 text-center text-3xl md:px-0 md:text-6xl"
+            "title font-bold text-primary my-12 w-full px-5 text-center md:px-0 text-4xl md:text-5xl"
           }
         >
           {t("contactUs.title")}
         </h1>
         <p
           className={
-            "px-5 text-center text-2xl text-white md:px-40 md:text-4xl"
+            "px-5 text-center text-white md:px-40 text-xl md:text-2xl lg:text-3xl"
           }
         >
           {t("contactUs.description")}
@@ -26,11 +27,11 @@ const Contact = () => {
       </div>
       <div
         className={
-          "my-10 flex w-full grid-cols-5 items-center justify-center md:grid md:justify-start"
+          "my-14 flex w-full grid-cols-5 items-center justify-center md:grid md:justify-start"
         }
       >
         <img src={"04-Shape.png"} className={"hidden w-2/3 md:block"} />
-        <img src={"/New-Map.png"} className={"col-span-3 w-full"} />
+        <img src={language == "ar" ? "/New-Map-AR.png" : "/New-Map.png"} className={"col-span-3 w-full"} />
         <img
           src={"03-Shape.png"}
           className={"hidden w-1/2 justify-self-end md:block"}
@@ -54,7 +55,7 @@ const Contact = () => {
                   "flex items-center gap-2 text-2xl font-bold text-white"
                 }
               >
-                <img src={"/syria.svg"} className={"w-8"} />
+                <img src={"/syria.png"} className={"w-8 h-6 rounded"} />
                 {t("contactUs.syria")} :
               </div>
               <a
@@ -74,7 +75,7 @@ const Contact = () => {
                   "flex items-center gap-2 text-2xl font-bold text-white"
                 }
               >
-                <img src={"/canada.svg"} className={"w-8"} />
+                <img src={"/canada.png"} className={"w-8 h-6 rounded"} />
                 {t("contactUs.canada")} :
               </div>
               <a
@@ -90,7 +91,7 @@ const Contact = () => {
 
             <div className={"flex flex-col items-start"}>
               <div className={"flex items-center gap-2 text-2xl text-white"}>
-                <img src={"/turkey.svg"} className={"w-8"} />
+                <img src={"/turkey.png"} className={"w-8 h-6 rounded"} />
                 {t("contactUs.turkey")} :
               </div>
               <a

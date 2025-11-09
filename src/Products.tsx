@@ -20,27 +20,26 @@ const Products = () => {
         >
           <h1
             className={
-              "ltr:!font-impact text-primary text-center text-4xl md:text-5xl"
+              "title font-bold text-primary text-center text-4xl md:text-5xl"
             }
           >
             {t("ourProducts.title")}
           </h1>
           <p
             className={
-              "mt-4 text-justify text-xl text-white md:text-2xl lg:text-3xl"
+              "mt-12 text-white text-center text-xl md:text-2xl lg:text-3xl"
             }
           >
             {t("ourProducts.description")}
           </p>
         </div>
-        <div className="w-full md:h-[80vh]">
-          <img
+        <img
             src="/02-LogoBc.svg"
             alt="Logo background"
-            className="h-full w-full object-cover px-10"
+            className="px-10 md:px-26 py-14 pb-22 md:pb-28"
           />
-        </div>
       </div>
+
       <div
         className={
           "bg-primary bg-cover bg-center bg-no-repeat py-10 md:h-screen md:bg-[url('/03-Background.jpg')] md:py-0"
@@ -51,7 +50,7 @@ const Products = () => {
             "flex h-full w-full items-center justify-end rtl:justify-start"
           }
         >
-          <p className={"px-10 text-center text-3xl text-white md:w-[50%]"}>
+          <p className={"px-10 text-center text-xl lg:text-3xl text-white md:w-[50%]"}>
             {t("ourProducts.discover")}
           </p>
         </div>
@@ -59,7 +58,7 @@ const Products = () => {
       <div className={"hidden w-full items-center justify-center md:flex"}>
         <span className={"h-2 w-[60%] rounded-xl bg-red-700"} />
       </div>
-      <h1 className={"text-primary ltr:!font-impact my-10 text-center text-4xl"}>
+      <h1 className={"text-primary font-bold my-10 text-center text-4xl"}>
         {t("ourProducts.products")}
       </h1>
       <div
@@ -87,7 +86,7 @@ const Products = () => {
             </div>
             <h1
               className={
-                "ltr:!font-impact bg-primary p-2 text-center text-xl text-white"
+                "title font-bold bg-primary p-2 text-center text-2xl text-white"
               }
             >
               {language === "en"
@@ -96,7 +95,7 @@ const Products = () => {
                   ? product.name_fr
                   : product.name_ar}
             </h1>
-            <p className={"text-md p-5 text-center !leading-5"}>
+            <p className={"text-lg p-2 text-center !leading-5"}>
               {language === "en"
                 ? product.description_en
                 : language == "fr"
@@ -114,7 +113,7 @@ const Products = () => {
       <div className={"px-10 pb-10 md:px-56"}>
         <h1
           className={
-            "text-primary ltr:!font-impact mb-10 text-center text-2xl md:text-start md:text-3xl"
+            "text-primary font-bold mb-10 text-center text-2xl md:text-start md:text-3xl"
           }
         >
           {t("companyName")}
@@ -132,7 +131,7 @@ const Products = () => {
                 "flex items-center gap-2 text-xl font-bold text-black hover:underline md:text-2xl"
               }
             >
-              <img src={"/canada.svg"} className={"w-8"} />
+              <img src={"/canada.png"} className={"w-8 h-6 rounded"} />
               <Phone className={"fill-primary text-primary"} />
               <span dir="ltr">+1 (437) 231-1444</span>
             </a>
@@ -143,7 +142,7 @@ const Products = () => {
                 "flex items-center gap-2 text-xl font-bold text-black hover:underline md:text-2xl"
               }
             >
-              <img src={"/turkey.svg"} className={"w-8"} />
+              <img src={"/turkey.png"} className={"w-8 h-6 rounded"} />
               <Phone className={"fill-primary text-primary"} />
               <span dir="ltr">+90 539 693 11 33</span>
             </a>
@@ -154,7 +153,7 @@ const Products = () => {
                 "flex items-center gap-2 text-xl font-bold text-black hover:underline md:text-2xl"
               }
             >
-              <img src={"/syria.svg"} className={"w-8"} />
+              <img src={"/syria.png"} className={"w-8 h-6 rounded"} />
               <Phone className={"fill-primary text-primary"} />
               <span dir="ltr">+963 937 777 960</span>
             </a>

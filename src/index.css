@@ -10,40 +10,65 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'ImpactCustom';
-    src: url('/fonts/impact.ttf') format('truetype'),
-    url('/fonts/Impacted.ttf') format('truetype'),
-    url('/fonts/unicode.impact.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; /* avoids invisible text while loading */
-}
-
+/* DIN Next LT Arabic - UltraLight */
 @font-face {
     font-family: "DINNextLTArabic";
-    src: url("/fonts/din/ArbFONTS-DINNEXTLTARABIC-LIGHT-1.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNEXTLTARABIC-LIGHT-2-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Black-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Black-3.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Black-4.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Bold-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Bold-3.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Bold-4.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Heavy-1.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Heavy2-1.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Heavy2-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Medium-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Medium-3.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Medium-4.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Regular-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Regular-3.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-Regular-4.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-UltraLight-1.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-UltraLight-2.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-UltraLight-3.ttf") format("truetype"),
-         url("/fonts/din/ArbFONTS-DINNextLTArabic-UltraLight-4.ttf") format("truetype");
-    font-weight: normal;
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-UltraLight-1.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Light */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNEXTLTARABIC-LIGHT-1.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Regular */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-Regular-2.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Medium */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-Medium-2.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Bold */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-Bold-2.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Heavy */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-Heavy-1.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DIN Next LT Arabic - Black */
+@font-face {
+    font-family: "DINNextLTArabic";
+    src: url("/fonts/din/ArbFONTS-DINNextLTArabic-Black-2.ttf") format("truetype");
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -51,12 +76,13 @@
 :lang(ar), [lang="ar"] {
     font-family: "DINNextLTArabic", sans-serif !important;
 }
+
 @font-face {
     font-family: 'ImpactCustom';
     src: url('/fonts/impact.ttf') format('truetype'),
     url('/fonts/Impacted.ttf') format('truetype'),
     url('/fonts/unicode.impact.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 100 900;
     font-style: normal;
     font-display: swap; /* avoids invisible text while loading */
 }
@@ -73,7 +99,11 @@
     --breakpoint-md: 1024px;
 }
 
-
 * {
     @apply leading-11 tracking-wide font-segoe
+}
+
+[lang="en"] * .title,
+[lang="fr"] * .title {
+    @apply font-impact;
 }
