@@ -171,6 +171,7 @@ const Products = () => {
 
             <a
               href={"https://www.instagram.com/ARIZONA1FOODS"}
+              target="_blank"
               className={
                 "flex items-center gap-2 text-xl font-bold text-black hover:underline md:text-2xl"
               }
@@ -179,7 +180,8 @@ const Products = () => {
               ARIZONA1FOODS
             </a>
             <a
-              href={"https://www.facebook.com/Arizonafoods"}
+              href={"https://www.facebook.com/profile.php?id=61573917998536"}
+              target="_blank"
               className={
                 "flex items-center gap-2 text-xl font-bold text-black hover:underline md:text-2xl"
               }

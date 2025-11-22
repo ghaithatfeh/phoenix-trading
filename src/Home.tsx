@@ -272,6 +272,7 @@ function Home() {
 
               <a
                 href={"https://www.instagram.com/ARIZONA1FOODS"}
+                target="_blank"
                 className={
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
@@ -280,7 +281,8 @@ function Home() {
                 ARIZONA1FOODS
               </a>
               <a
-                href={"https://www.facebook.com/arizonafoods"}
+                href={"https://www.facebook.com/profile.php?id=61573917998536"}
+                target="_blank"
                 className={
                   "flex items-center gap-2 text-white hover:underline md:text-2xl"
                 }
